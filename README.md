@@ -1,30 +1,33 @@
-# Jarvis Data Engineering Training
+# Linux Cluster Monitoring Agent (LCA)
 
-This repository contains all projects and exercises completed as part of the **Jarvis Data Engineering Training Program**.  
-Each module focuses on a different aspect of data engineering, covering end-to-end skills from Linux scripting to cloud deployment.
-
-## Project Modules
-
-1. [**Linux Cluster Monitoring Agent (Linux & SQL)**](./linux_sql)  *In Progress*  
-   > Develop a Bash and SQL-based agent to monitor and store real-time system metrics.
-
-2. [**Core Java Applications**](./core_java)  *In Progress*  
-   > Build foundational Java applications focusing on OOP principles, exception handling, and data processing.
-
-3. [**Python Data Analytics**](./python_data_analytics)  *In Progress*  
-   > Perform data cleaning, analysis, and visualization using Python and popular data science libraries.
-
-4. [**Spring Boot Trading REST API**](./springboot)  *In Progress*  
-   > Design a RESTful trading API using Spring Boot, integrating PostgreSQL and external market data APIs.
-
-5. [**JavaScript Front End**](./javascript)  *In Progress*  
-   > Develop dynamic and responsive web components using modern JavaScript frameworks.
-
-6. [**Cloud / DevOps**](./cloud_devops)  *In Progress*  
-   > Deploy and manage cloud infrastructure, CI/CD pipelines, and Dockerized applications.
+> **A Bash- and Docker-based monitoring solution for Linux servers.**  
+> Collects hardware specs and resource usage data from multiple hosts and stores them in a centralized PostgreSQL database for performance tracking and analysis.
 
 ---
 
-### ?? Repository Structure
+## Introduction
+The **Linux Cluster Monitoring Agent (LCA)** automates data collection from multiple Linux servers. It gathers both static hardware specifications and dynamic usage metrics (CPU, memory, disk) and stores them in a central PostgreSQL database containerized via Docker.  
+This system enables system administrators and DevOps engineers to analyze infrastructure performance, detect anomalies, and plan for resource optimization.
 
+**Technologies used:** Bash, Docker, PostgreSQL, Git, Cron, Linux CLI.
+
+---
+
+## Quick Start
+
+```bash
+# 1. Start PostgreSQL using the docker management script
+bash linux_sql/scripts/psql_docker.sh start
+
+# 2. Create the database and tables
+psql -h localhost -U postgres -f linux_sql/ddl.sql
+
+# 3. Insert host hardware information
+bash linux_sql/scripts/host_info.sh localhost 5432 host_agent postgres password
+
+# 4. Insert host usage information (manual run)
+bash linux_sql/scripts/host_usage.sh localhost 5432 host_agent postgres password
+
+# 5. Schedule automatic execution every minute (Cron)
+* * * * * bash /home/rocky/dev/jarvis_data_eng_SridharRaviKumar/linux_sql/scripts/host_usage.sh localhost 5432 host_agent postgres password >> /tmp/host_usage.log 2>&1
 
