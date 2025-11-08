@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS courses (
+course_id SERIAL PRIMARY KEY,
+course_name VARCHAR(100) NOT NULL,
+credits INT NOT NULL CHECK (credits BETWEEN 1 AND 6)
+);
