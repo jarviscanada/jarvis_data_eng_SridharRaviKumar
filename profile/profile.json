@@ -19,7 +19,7 @@
       "school_name": "XYZ university"
     }
   ],
-  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_demo",
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar",
   "highlighted_projects": [
     {
       "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
@@ -34,7 +34,7 @@
   ],
   "jarvis_projects": [
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
+      "description": "Designed and implemented relational schemas to analyze system metrics collected from Linux hosts.Wrote optimized SQL using joins, aggregations, subqueries, and window functions to extract performance insights.Automated data loading and validation inside a Dockerized PostgreSQL environment using Bash.",
       "git_url": "/linux_sql",
       "name": "Cluster Monitor"
     },
@@ -112,26 +112,26 @@
   ],
   "skills": {
     "competent": [
-      "Donec",
-      "fermentum",
-      "Donec",
-      "fermentum",
-      "Donec"
+      "Power BI / Tableau",
+      "Docker / AWS EC2",
+      "ETL pipeline design and data modeling",
+      "Statistics and Predictive Modelling",
+      "API integration and automation"
     ],
     "familiar": [
-      "Donec",
-      "fermentum",
-      "fermentum",
-      "fermentum",
-      "fermentum"
+      "Microsoft Excel",
+      "R",
+      "N8N frameworks",
+      "LLM",
+      "Data warehouse and Analytics"
     ],
     "proficient": [
-      "Java",
+      "Java, Python and COBOL",
       "Linux/Bash",
       "RDBMS/SQL",
       "Agile/Scrum",
       "Git"
     ]
   },
-  "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit."
+  "summary": "Software and Data Engineering professional who has built scalable, data-driven solutions through the Jarvis Consulting Group Data Engineering program. Applied strong expertise in Python, SQL, Docker, and PostgreSQL to design and deploy analytics pipelines, automate workflows, and optimize database operations in Agile environments. Previously developed full-stack applications and machine learning models, transforming complex datasets into actionable business insights. Completed dual postgraduate diplomas in Artificial Intelligence and Data Analytics for Business at Durham College, building a solid foundation in data science and cloud technologies. Known for delivering clean, production-ready solutions, collaborating effectively in cross-functional teams, and continuously improving processes to meet client and organizational goals."
 }
