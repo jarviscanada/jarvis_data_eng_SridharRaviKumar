@@ -69,27 +69,30 @@ professional_experience:
     duration: "2025 - Present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: Delivered end-to-end data engineering solutions using Python, SQL, Docker, and Linux within Agile sprints.Built ETL pipelines, automated data collection and reporting, and managed PostgreSQL in containerized environments.Collaborated with DevOps to implement CI/CD on AWS EC2 using GitHub Actions and improved system monitoring with Bash automation.
-  - title: "Tutor"
-    company: "XYZ Company"
-    duration: "2019"
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
+  - title: "Programmer Analyst"
+    company: "Cognizant Technology Solutions"
+    duration: "Apr 2022 - Nov 2023"
+    description: Developed downstream data applications achieving high first-release accuracy.Automated monthly performance reporting using Python and SQL to reduce delivery time, and produced KPI scorecards that improved operational decisions.Authored technical documentation and collaborated with cross-functional teams.
 
 #List of edcuation
 education: 
-  - school_name: "XYZ university"
-    duration: "2012-2016"
-    degree: "Bachelor of Applied Sciences"
-    department: "Electrical and Computer Engineering"
+  - school_name: "Durham College"
+    duration: "Jan 2024 - Aug 2025"
+    degree: "Postgraduate Diplomas"
+    department: "Artificial Intelligence and Data Analytics for Business"
     # optional
     awards_achievements: 
-      - "Scholarship"
-      - "Dean's List (2015, 2016): Ut enim ad minim veniam"
-      - "GPA: 3.8/4.0"
-  - school_name: "XYZ university"
-    duration: "2016-2018"
-    degree: "Master of Engineering"
-    department: "Electrical and Computer Engineering"
-    awards_achievements: 
+      - "Completed dual postgraduate programs with Honours"
+      - "Built AI and data applications: AI Career Advisor, Sustainable Healthcare, Fraud Detection"
+      - "GPA: 4.5/5.0"
+  - school_name: "Anna University"
+    duration: "Aug 2017 - Aug 2021"
+    degree: "Bachelor of Engineering"
+    department: "Mechanical Engineering"
+    awards_achievements:
+      - "Graduated with First Class - GPA: 8/10"
+      - "Designed and built a semi-automatic staircase climbing trolley for load transport using motorized mechanisms"
+      - "Presented at College Technical Expo for innovation and practical design"
 
 #Optional section
 others:

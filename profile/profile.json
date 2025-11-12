@@ -2,21 +2,25 @@
   "education": [
     {
       "awards_achievements": [
-        "Scholarship",
-        "Dean's List (2015, 2016): Ut enim ad minim veniam",
-        "GPA: 3.8/4.0"
+        "Completed dual postgraduate programs with Honours",
+        "Built AI and data applications: AI Career Advisor, Sustainable Healthcare, Fraud Detection",
+        "GPA: 4.5/5.0"
       ],
-      "degree": "Bachelor of Applied Sciences",
-      "department": "Electrical and Computer Engineering",
-      "duration": "2012-2016",
-      "school_name": "XYZ university"
+      "degree": "Postgraduate Diplomas",
+      "department": "Artificial Intelligence and Data Analytics for Business",
+      "duration": "Jan 2024 - Aug 2025",
+      "school_name": "Durham College"
     },
     {
-      "awards_achievements": null,
-      "degree": "Master of Engineering",
-      "department": "Electrical and Computer Engineering",
-      "duration": "2016-2018",
-      "school_name": "XYZ university"
+      "awards_achievements": [
+        "Graduated with First Class - GPA: 8/10",
+        "Designed and built a semi-automatic staircase climbing trolley for load transport using motorized mechanisms",
+        "Presented at College Technical Expo for innovation and practical design"
+      ],
+      "degree": "Bachelor of Engineering",
+      "department": "Mechanical Engineering",
+      "duration": "Aug 2017 - Aug 2021",
+      "school_name": "Anna University"
     }
   ],
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar",
@@ -75,10 +79,10 @@
       "title": "Data Engineer"
     },
     {
-      "company": "XYZ Company",
-      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
-      "duration": "2019",
-      "title": "Tutor"
+      "company": "Cognizant Technology Solutions",
+      "description": "Developed downstream data applications achieving high first-release accuracy.Automated monthly performance reporting using Python and SQL to reduce delivery time, and produced KPI scorecards that improved operational decisions.Authored technical documentation and collaborated with cross-functional teams.",
+      "duration": "Apr 2022 - Nov 2023",
+      "title": "Programmer Analyst"
     }
   ],
   "skills": {
