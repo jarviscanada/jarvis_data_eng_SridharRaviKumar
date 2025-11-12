@@ -1,59 +1,48 @@
 # Sridhar Ravi Kumar . Jarvis Consulting
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit.
+Software and Data Engineering professional who has built scalable, data-driven solutions through the Jarvis Consulting Group Data Engineering program. Applied strong expertise in Python, SQL, Docker, and PostgreSQL to design and deploy analytics pipelines, automate workflows, and optimize database operations in Agile environments. Previously developed full-stack applications and machine learning models, transforming complex datasets into actionable business insights. Completed dual postgraduate diplomas in Artificial Intelligence and Data Analytics for Business at Durham College, building a solid foundation in data science and cloud technologies. Known for delivering clean, production-ready solutions, collaborating effectively in cross-functional teams, and continuously improving processes to meet client and organizational goals.
 
 ## Skills
 
-**Proficient:** Java, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
+**Proficient:** Java, Python and COBOL, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
 
-**Competent:** Donec, fermentum, Donec, fermentum, Donec
+**Competent:** Power BI / Tableau, Docker / AWS EC2, ETL pipeline design and data modeling, Statistics and Predictive Modelling, API integration and automation
 
-**Familiar:** Donec, fermentum, fermentum, fermentum, fermentum
+**Familiar:** Microsoft Excel, R, N8N frameworks, LLM, Data warehouse and Analytics
 
 ## Jarvis Projects
 
-Project source code: [https://github.com/jarviscanada/jarvis_data_eng_demo](https://github.com/jarviscanada/jarvis_data_eng_demo)
+Project source code: [https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar](https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/linux_sql)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar/tree/master/linux_sql)]: Designed and implemented relational schemas to analyze system metrics collected from Linux hosts.Wrote optimized SQL using joins, aggregations, subqueries, and window functions to extract performance insights.Automated data loading and validation inside a Dockerized PostgreSQL environment using Bash.
 
-**Core Java Apps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/core_java)]:
-      
-  - Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-
-**Springboot App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/springboot)]: Not Started
-
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/python_data_anlytics)]: Not Started
-
-**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/hadoop)]: Not Started
-
-**Spark** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/spark)]: Not Started
-
-**Cloud/DevOps** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_demo/tree/master/cloud_devops)]: Not Started
+**SQL Data Analytics and Modeling** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar/tree/master/sql)]: Designed and implemented relational schemas to analyze system metrics collected from Linux hosts.Wrote optimized SQL using joins, aggregations, subqueries, and window functions to extract performance insights.Automated data loading and validation inside a Dockerized PostgreSQL environment using Bash.
 
 
 ## Highlighted Projects
-**Web app for resturant** [[GitHub](https://github.com/jarviscanada/jarvis_profile_builder)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**FitEats AI Meal Planner** [[GitHub](https://github.com/jarviscanada/jarvis_profile_builder)]: Developed a personalized meal planning web app with AI-driven recommendations and deployed on AWS using Docker and CI/CD.
 
-**Machine Learning**: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**Sales Performance Dashboard**: Migrated executive reporting from Excel to Power BI, enabling automated refresh and KPI tracking across regions.
 
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2020-present)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Data Engineer, Jarvis Consulting Group (2025 - Present)**: Delivered end-to-end data engineering solutions using Python, SQL, Docker, and Linux within Agile sprints.Built ETL pipelines, automated data collection and reporting, and managed PostgreSQL in containerized environments.Collaborated with DevOps to implement CI/CD on AWS EC2 using GitHub Actions and improved system monitoring with Bash automation.
 
-**Tutor, XYZ Company (2019)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Programmer Analyst, Cognizant Technology Solutions (Apr 2022 - Nov 2023)**: Developed downstream data applications achieving high first-release accuracy.Automated monthly performance reporting using Python and SQL to reduce delivery time, and produced KPI scorecards that improved operational decisions.Authored technical documentation and collaborated with cross-functional teams.
 
 
 ## Education
-**XYZ university (2012-2016)**, Bachelor of Applied Sciences, Electrical and Computer Engineering
-- Scholarship
-- Dean's List (2015, 2016): Ut enim ad minim veniam
-- GPA: 3.8/4.0
+**Durham College (Jan 2024 - Aug 2025)**, Postgraduate Diplomas, Artificial Intelligence and Data Analytics for Business
+- Completed dual postgraduate programs with Honours
+- Built AI and data applications: AI Career Advisor, Sustainable Healthcare, Fraud Detection
+- GPA: 4.5/5.0
 
-**XYZ university (2016-2018)**, Master of Engineering, Electrical and Computer Engineering
+**Anna University (Aug 2017 - Aug 2021)**, Bachelor of Engineering, Mechanical Engineering
+- Graduated with First Class - GPA: 8/10
+- Designed and built a semi-automatic staircase climbing trolley for load transport using motorized mechanisms
+- Presented at College Technical Expo for innovation and practical design
 
 
 ## Miscellaneous
