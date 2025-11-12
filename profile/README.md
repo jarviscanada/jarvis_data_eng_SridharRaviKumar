@@ -21,9 +21,9 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_SridharRav
 
 
 ## Highlighted Projects
-**FitEats AI Meal Planner** [[GitHub](https://github.com/jarviscanada/jarvis_profile_builder)]: Developed a personalized meal planning web app with AI-driven recommendations and deployed on AWS using Docker and CI/CD.
+**FitEats AI Meal Planner** [[GitHub](https://github.com/sridhoo/)]: Developed a personalized meal planning web app with AI-driven recommendations and deployed on AWS using Docker and CI/CD.
 
-**Sales Performance Dashboard**: Migrated executive reporting from Excel to Power BI, enabling automated refresh and KPI tracking across regions.
+**Sales Performance Dashboard** [[GitHub](https://github.com/sridhoo/)]: Migrated executive reporting from Excel to Power BI, enabling automated refresh and KPI tracking across regions.
 
 
 ## Professional Experiences
@@ -46,8 +46,11 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_SridharRav
 
 
 ## Miscellaneous
-- Udacity Machine Learning (2019)
-- Winner
-- Basketball player
-- Competitive gaming
-- Volunteer, ABC Food bank: Ut enim ad minim veniam
+- Presented as Key Speaker in a two-day webinar on 'How to Become a Freelancer' and 'Superbikes' for high school students
+- Exam Controller ,Digital Examinations, Sify Technologies & Ginger Webs
+- Content Management Associate , Wheebox & L&T EduTech
+- Network Engineer , ISP Operations, Airconnect InfoSystems Pvt. Ltd.
+- Tech Support Engineer , Aditya Birlasoft
+- Motorcycle enthusiast, passionate about engineering, design, and mechanics
+- Exploring AI-powered productivity tools and automation platforms
+- Volunteer, Cognizant Outreach

@@ -53,11 +53,11 @@ highlighted_projects:
     #project name
   - name: "FitEats AI Meal Planner"
     #URL is optional
-    git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
+    git_url: "https://github.com/sridhoo/"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: Developed a personalized meal planning web app with AI-driven recommendations and deployed on AWS using Docker and CI/CD.
   - name: "Sales Performance Dashboard"
-    git_url:
+    git_url: "https://github.com/sridhoo/"
     description: Migrated executive reporting from Excel to Power BI, enabling automated refresh and KPI tracking across regions.
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
@@ -97,15 +97,18 @@ education:
 #Optional section
 others:
     #category
-  - title: "Certificates"
+  - title: "Awards"
     #list of items
     bullets:
-      - "Udacity Machine Learning (2019)"
-  - title: "Awards"
+      - "Presented as Key Speaker in a two-day webinar on 'How to Become a Freelancer' and 'Superbikes' for high school students"
+  - title: "Freelance Experience"
     bullets:
-      - "Winner"
+      - "Exam Controller ,Digital Examinations, Sify Technologies & Ginger Webs"
+      - "Content Management Associate , Wheebox & L&T EduTech"
+      - "Network Engineer , ISP Operations, Airconnect InfoSystems Pvt. Ltd."
+      - "Tech Support Engineer , Aditya Birlasoft"
   - title: "Activities/Hobbies"
     bullets:
-      - "Basketball player"
-      - "Competitive gaming"
-      - "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+      - "Motorcycle enthusiast, passionate about engineering, design, and mechanics"
+      - "Exploring AI-powered productivity tools and automation platforms"
+      - "Volunteer, Cognizant Outreach"

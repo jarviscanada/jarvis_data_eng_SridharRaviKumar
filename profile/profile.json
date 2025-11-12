@@ -27,12 +27,12 @@
   "highlighted_projects": [
     {
       "description": "Developed a personalized meal planning web app with AI-driven recommendations and deployed on AWS using Docker and CI/CD.",
-      "git_url": "https://github.com/jarviscanada/jarvis_profile_builder",
+      "git_url": "https://github.com/sridhoo/",
       "name": "FitEats AI Meal Planner"
     },
     {
       "description": "Migrated executive reporting from Excel to Power BI, enabling automated refresh and KPI tracking across regions.",
-      "git_url": null,
+      "git_url": "https://github.com/sridhoo/",
       "name": "Sales Performance Dashboard"
     }
   ],
@@ -52,21 +52,24 @@
   "others": [
     {
       "bullets": [
-        "Udacity Machine Learning (2019)"
-      ],
-      "title": "Certificates"
-    },
-    {
-      "bullets": [
-        "Winner"
+        "Presented as Key Speaker in a two-day webinar on 'How to Become a Freelancer' and 'Superbikes' for high school students"
       ],
       "title": "Awards"
     },
     {
       "bullets": [
-        "Basketball player",
-        "Competitive gaming",
-        "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+        "Exam Controller ,Digital Examinations, Sify Technologies \u0026 Ginger Webs",
+        "Content Management Associate , Wheebox \u0026 L\u0026T EduTech",
+        "Network Engineer , ISP Operations, Airconnect InfoSystems Pvt. Ltd.",
+        "Tech Support Engineer , Aditya Birlasoft"
+      ],
+      "title": "Freelance Experience"
+    },
+    {
+      "bullets": [
+        "Motorcycle enthusiast, passionate about engineering, design, and mechanics",
+        "Exploring AI-powered productivity tools and automation platforms",
+        "Volunteer, Cognizant Outreach"
       ],
       "title": "Activities/Hobbies"
     }
