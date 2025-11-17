@@ -12,33 +12,24 @@
 - [Improvements](#-improvements)
 - [Author](#-author)
 
-## Introduction
-The Linux Cluster Monitoring Agent (LCA) automates system monitoring across a cluster of Linux servers. It consists of two main Bash scripts that:
-- Collect static hardware information (`host_info.sh`)
-- Gather real-time usage data (`host_usage.sh`) 
+1. [**Linux Cluster Monitoring Agent (Linux & SQL)**](./linux_sql)   
+   > Develop a Bash and SQL-based agent to monitor and store real-time system metrics.
 
-Data is stored in a PostgreSQL database running in Docker, enabling DevOps teams to analyze infrastructure health and optimize resources.
+2. [**Core Java Applications**](./core_java)  
+   > Build foundational Java applications focusing on OOP principles, exception handling, and data processing.
 
-**Technologies:** Bash, Docker, PostgreSQL, Git, Cron, Linux CLI
+3. [**Python Data Analytics**](./python_data_analytics)  
+   > Perform data cleaning, analysis, and visualization using Python and popular data science libraries.
 
-## Quick Start
+4. [**Spring Boot Trading REST API**](./springboot)  
+   > Design a RESTful trading API using Spring Boot, integrating PostgreSQL and external market data APIs.
 
-```bash
-# 1. Start PostgreSQL container
-bash linux_sql/scripts/psql_docker.sh start
+5. [**JavaScript Front End**](./javascript)  
+   > Develop dynamic and responsive web components using modern JavaScript frameworks.
 
-# 2. Create database and tables 
-psql -h localhost -U postgres -f linux_sql/ddl.sql
+6. [**Cloud / DevOps**](./cloud_devops)  
+   > Deploy and manage cloud infrastructure, CI/CD pipelines, and Dockerized applications.
 
-# 3. Insert hardware info (once per server)
-bash linux_sql/scripts/host_info.sh localhost 5432 host_agent postgres password
-
-# 4. Insert usage data (manual)
-bash linux_sql/scripts/host_usage.sh localhost 5432 host_agent postgres password
-
-# 5. Schedule collection (every minute)
-* * * * * bash /home/rocky/dev/jarvis_data_eng_SridharRaviKumar/linux_sql/scripts/host_usage.sh localhost 5432 host_agent postgres password >> /tmp/host_usage.log 2>&1
-```
 
 ## Architecture
 The LCA collects data from multiple Linux hosts and sends it to a centralized PostgreSQL instance running in Docker.
