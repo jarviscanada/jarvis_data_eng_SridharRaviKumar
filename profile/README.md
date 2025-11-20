@@ -46,11 +46,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_SridharRav
 
 
 ## Miscellaneous
-- Presented as Key Speaker in a two-day webinar on 'How to Become a Freelancer' and 'Superbikes' for high school students
-- Exam Controller ,Digital Examinations, Sify Technologies & Ginger Webs
-- Content Management Associate , Wheebox & L&T EduTech
-- Network Engineer , ISP Operations, Airconnect InfoSystems Pvt. Ltd.
-- Tech Support Engineer , Aditya Birlasoft
-- Motorcycle enthusiast, passionate about engineering, design, and mechanics
-- Exploring AI-powered productivity tools and automation platforms
-- Volunteer, Cognizant Outreach
+- **Key Speaker:** Delivered a two-day webinar on 'How to Become a Freelancer' and 'Superbikes' for high school students
+- **Freelance Technical Roles:** Experience in exam operations, digital content management, network support, and tech support across multiple organizations
+- **Motorcycle Enthusiast & AI Explorer:** Passion for engineering, mechanics, and automation tools
+- **Volunteer:** Cognizant Outreach
