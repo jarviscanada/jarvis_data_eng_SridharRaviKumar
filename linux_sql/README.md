@@ -33,7 +33,7 @@
 
 ## Architecture
 The LCA collects data from multiple Linux hosts and sends it to a centralized PostgreSQL instance running in Docker.
-![Linux Cluster Architecture](assets/Sri_Architecture_Diagram.png)
+![Linux Cluster Architecture](../assets/Sri_Architecture_Diagram.png)
 
 
 ### Scripts Overview
