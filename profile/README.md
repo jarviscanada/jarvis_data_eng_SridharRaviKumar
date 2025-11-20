@@ -37,7 +37,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_SridharRav
 **Durham College (Jan 2024 - Aug 2025)**, Postgraduate Diplomas, Artificial Intelligence and Data Analytics for Business
 - Completed dual postgraduate programs with Honours
 - Built AI and data applications: AI Career Advisor, Sustainable Healthcare, Fraud Detection
-- GPA: 4.5/5.0
+- GPA: 4.5/5.0 - Honours 
 
 **Anna University (Aug 2017 - Aug 2021)**, Bachelor of Engineering, Mechanical Engineering
 - Designed and built a semi-automatic staircase climbing trolley for load transport using motorized mechanisms
