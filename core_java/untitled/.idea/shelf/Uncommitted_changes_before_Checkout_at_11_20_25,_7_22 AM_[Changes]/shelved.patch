@@ -1,0 +1,70 @@
+Index: ../../README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Jarvis Data Engineering Training\n...\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../../README.md b/../../README.md
+--- a/../../README.md	(revision da6755c5cbb6b82dbd2879ee86a1bf88908f487c)
++++ b/../../README.md	(date 1762975329548)
+@@ -1,2 +1,56 @@
+-# Jarvis Data Engineering Training
+-...
++# Sridhar Ravi Kumar . Jarvis Consulting
++
++Software and Data Engineering professional who has built scalable, data-driven solutions through the Jarvis Consulting Group Data Engineering program. Applied strong expertise in Python, SQL, Docker, and PostgreSQL to design and deploy analytics pipelines, automate workflows, and optimize database operations in Agile environments. Previously developed full-stack applications and machine learning models, transforming complex datasets into actionable business insights. Completed dual postgraduate diplomas in Artificial Intelligence and Data Analytics for Business at Durham College, building a solid foundation in data science and cloud technologies. Known for delivering clean, production-ready solutions, collaborating effectively in cross-functional teams, and continuously improving processes to meet client and organizational goals.
++
++## Skills
++
++**Proficient:** Java, Python and COBOL, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
++
++**Competent:** Power BI / Tableau, Docker / AWS EC2, ETL pipeline design and data modeling, Statistics and Predictive Modelling, API integration and automation
++
++**Familiar:** Microsoft Excel, R, N8N frameworks, LLM, Data warehouse and Analytics
++
++## Jarvis Projects
++
++Project source code: [https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar](https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar)
++
++
++**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar/tree/master/linux_sql)]: Designed and implemented relational schemas to analyze system metrics collected from Linux hosts.Wrote optimized SQL using joins, aggregations, subqueries, and window functions to extract performance insights.Automated data loading and validation inside a Dockerized PostgreSQL environment using Bash.
++
++**SQL Data Analytics and Modeling** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar/tree/master/sql)]: Designed and implemented relational schemas to analyze system metrics collected from Linux hosts.Wrote optimized SQL using joins, aggregations, subqueries, and window functions to extract performance insights.Automated data loading and validation inside a Dockerized PostgreSQL environment using Bash.
++
++
++## Highlighted Projects
++**FitEats AI Meal Planner** [[GitHub](https://github.com/jarviscanada/jarvis_profile_builder)]: Developed a personalized meal planning web app with AI-driven recommendations and deployed on AWS using Docker and CI/CD.
++
++**Sales Performance Dashboard**: Migrated executive reporting from Excel to Power BI, enabling automated refresh and KPI tracking across regions.
++
++
++## Professional Experiences
++
++**Data Engineer, Jarvis Consulting Group (2025 - Present)**: Delivered end-to-end data engineering solutions using Python, SQL, Docker, and Linux within Agile sprints.Built ETL pipelines, automated data collection and reporting, and managed PostgreSQL in containerized environments.Collaborated with DevOps to implement CI/CD on AWS EC2 using GitHub Actions and improved system monitoring with Bash automation.
++
++**Programmer Analyst, Cognizant Technology Solutions (Apr 2022 - Nov 2023)**: Developed downstream data applications achieving high first-release accuracy.Automated monthly performance reporting using Python and SQL to reduce delivery time, and produced KPI scorecards that improved operational decisions.Authored technical documentation and collaborated with cross-functional teams.
++
++
++## Education
++**Durham College (Jan 2024 - Aug 2025)**, Postgraduate Diplomas, Artificial Intelligence and Data Analytics for Business
++- Completed dual postgraduate programs with Honours
++- Built AI and data applications: AI Career Advisor, Sustainable Healthcare, Fraud Detection
++- GPA: 4.5/5.0
++
++**Anna University (Aug 2017 - Aug 2021)**, Bachelor of Engineering, Mechanical Engineering
++- Graduated with First Class - GPA: 8/10
++- Designed and built a semi-automatic staircase climbing trolley for load transport using motorized mechanisms
++- Presented at College Technical Expo for innovation and practical design
++
++
++## Miscellaneous
++- Presented as Key Speaker in a two-day webinar on 'How to Become a Freelancer' and 'Superbikes' for high school students
++- Exam Controller ,Digital Examinations, Sify Technologies & Ginger Webs
++- Content Management Associate , Wheebox & L&T EduTech
++- Network Engineer , ISP Operations, Airconnect InfoSystems Pvt. Ltd.
++- Tech Support Engineer , Aditya Birlasoft
++- Motorcycle enthusiast, passionate about engineering, design, and mechanics
++- Exploring AI-powered productivity tools and automation platforms
++- Volunteer, Cognizant Outreach
+\ No newline at end of file
