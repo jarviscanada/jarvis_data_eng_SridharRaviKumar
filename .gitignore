@@ -1,0 +1,23 @@
+# Ignore build output
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.logs
+
+# IntelliJ IDEA
+*.iml
+.idea/
+
+# Eclipse
+.eclipse
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
