@@ -13,7 +13,7 @@ db_name=$3
 psql_user=$4
 psql_password=$5
 
-export PGPASSWORD="password"
+export PGPASSWORD="postgres"
 
 hostname_fqdn=$(hostname -f || hostname)
 lscpu_out="$(lscpu)"
