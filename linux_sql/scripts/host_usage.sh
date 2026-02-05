@@ -1,4 +1,5 @@
-set -euo pipefail
+set -euo 
+set -o pipefail
 
 if [ "$#" -ne 5 ]; then
   echo "Usage: $0 psql_host psql_port db_name psql_user psql_password" >&2
