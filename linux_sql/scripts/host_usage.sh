@@ -1,4 +1,4 @@
-set -euo 
+set -eu
 set -o pipefail
 
 if [ "$#" -ne 5 ]; then
