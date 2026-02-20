@@ -12,25 +12,6 @@
 - [Improvements](#-improvements)
 - [Author](#-author)
 
-1. [**Linux Cluster Monitoring Agent (Linux & SQL)**](./linux_sql)   
-   > Develop a Bash and SQL-based agent to monitor and store real-time system metrics.
-
-2. [**Core Java Applications**](./core_java)  
-   > Build foundational Java applications focusing on OOP principles, exception handling, and data processing.
-
-3. [**Python Data Analytics**](./python_data_analytics)  
-   > Perform data cleaning, analysis, and visualization using Python and popular data science libraries.
-
-4. [**Spring Boot Trading REST API**](./springboot)  
-   > Design a RESTful trading API using Spring Boot, integrating PostgreSQL and external market data APIs.
-
-5. [**JavaScript Front End**](./javascript)  
-   > Develop dynamic and responsive web components using modern JavaScript frameworks.
-
-6. [**Cloud / DevOps**](./cloud_devops)  
-   > Deploy and manage cloud infrastructure, CI/CD pipelines, and Dockerized applications.
-
-
 ## Architecture
 The LCA collects data from multiple Linux hosts and sends it to a centralized PostgreSQL instance running in Docker.
 ![Linux Cluster Architecture](../assets/Sri_Architecture_Diagram.png)
