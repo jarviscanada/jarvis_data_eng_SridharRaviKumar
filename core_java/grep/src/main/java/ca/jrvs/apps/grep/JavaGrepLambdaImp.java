@@ -56,7 +56,7 @@ public class JavaGrepLambdaImp extends JavaGrepImp {
     }
 
     /**
-     * Stream-based recursive file listing using Files.walk
+     * Stream-based recursive file listing using Files. Walk
      */
     @Override
     public List<File> listFiles(String rootDir) {
