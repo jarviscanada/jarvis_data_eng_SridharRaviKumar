@@ -1,14 +1,14 @@
 # Sridhar Ravi Kumar . Jarvis Consulting
 
-Data Engineering professional with hands-on experience building backend applications and data processing systems at Jarvis Consulting Group. I have worked with Java, Linux, Bash, Docker, PostgreSQL, and SQL to build tools such as a containerized Java Grep application and a Linux cluster monitoring system. Previously at Cognizant, I worked on downstream data processing using COBOL-based batch programs, handled file-based data flows, supported month-end operations, and created productivity reports. I enjoy understanding systems end-to-end, writing clear code, and improving reliability through better design and data structure choices.
+Data Engineering professional with hands-on experience building backend applications and data processing systems at Jarvis Consulting Group. Worked with Java, Linux, Bash, Docker, PostgreSQL, and SQL to build tools such as a containerized Java Grep application and a Linux cluster monitoring system. Also contributed to retail data analysis projects using SQL and Python to perform customer segmentation and analyze transactional data. Previously supported COBOL-based batch programs, file-driven data workflows, and operational reporting at Cognizant. Interested in understanding systems end-to-end, with a focus on writing clear, structured code and building reliable, practical solutions.
 
 ## Skills
 
-**Proficient:** Java (Core Java, Collections, Streams), Linux and Bash, SQL and Relational Databases (PostgreSQL, MySQL), Git and Version Control, Agile / Scrum workflows
+**Proficient:** Java (Core Java, Collections, Streams), Linux and Bash, SQL and Relational Databases (PostgreSQL, MySQL), Git and Version Control, Agile / Scrum workflows.
 
-**Competent:** Maven and Java build tools, Docker (Containerization), Basic Data Modeling and ETL Concepts, API Integration (Foundational Experience), AWS EC2 (Deployment Basics)
+**Competent:** Maven & Build Lifecycle Management, Docker (Containerization & Image Management), ETL Concepts & Data Validation, REST API Integration (Foundational Experience), AWS EC2 (Deployment & Environment Setup), Python (Pandas, NumPy for Data Analysis).
 
-**Familiar:** Power BI and Tableau, Microsoft Excel (reporting and scorecards), COBOL (batch programs), N8N automation workflows, LLM tools and prompt workflows
+**Familiar:** Power BI & Tableau (Data Visualization), Microsoft Excel (Reporting & Analysis), COBOL (Batch Processing), N8N Workflow Automation, LLM Tools & Prompt Engineering Workflows.
 
 ## Jarvis Projects
 
@@ -18,6 +18,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_SridharRav
 **Linux Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar/tree/master/linux_sql)]: Developed a Bash-based monitoring tool to collect hardware specifications and resource usage from Linux machines. Designed PostgreSQL schemas for host and usage data, automated data collection using Cron, and containerized the database with Docker. Wrote SQL queries to analyze system usage and support operational insights.
 
 **Java Grep Application** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar/tree/master/core_java/grep)]: Built a Java-based Grep application to search large text files using regular expressions. Implemented file traversal using Java NIO and Streams, applied lambda expressions for filtering and processing, and added logging with SLF4J. Packaged the application as a fat JAR using Maven and containerized it with Docker to ensure consistent execution across environments.
+**London Gift Shop (LGS) Retail Analytics & Customer Segmentation** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar/tree/master/core_java/grep)]:Performed retail transactional data analysis to understand customer purchasing behavior. Queried structured sales data from PostgreSQL, validated aggregations using SQL (GROUP BY, HAVING), and implemented RFM (Recency, Frequency, Monetary) analysis in Python (Pandas, NumPy) to segment customers based on buying patterns. Ensured data integrity through validation checks and transformed raw sales records into actionable business insights to support strategic decision-making.
 
 
 ## Highlighted Projects
