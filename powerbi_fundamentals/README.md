@@ -1,217 +1,103 @@
-# Power BI Fundamentals Dashboards
+# Dashboard Summaries
 
-## Overview
-
-This folder contains a collection of **Power BI dashboards** demonstrating foundational data visualization and analytical reporting techniques. The goal of these projects is to transform raw datasets into meaningful insights using **interactive dashboards, visual storytelling, and key performance indicators**.
-
-Each dashboard explores a different dataset and analytical perspective, showcasing how Power BI can be used to analyze business data, survey results, and financial market information.
-
-Both the **Power BI project files (.pbix)** and **exported PDF versions** are included for each dashboard.
-
----
-
-## Tools and Technologies
-
-- Microsoft Power BI Desktop  
-- Power Query (Data Transformation)  
-- DAX (Data Analysis Expressions)  
-- REST API Integration  
-- Microsoft Excel  
-
----
-
-# Dashboards Included
-
----
-
-## 1. Beverage Sales Dashboard
+## Beverages Dashboard
 
 ### Description
-This dashboard analyzes beverage sales data to provide insights into product performance, sales distribution, and revenue trends.
+The Beverages Dashboard provides an overview of beverage sales performance across different products and regions. It focuses on identifying revenue trends, product category performance, and overall sales distribution using interactive visualizations.
 
-### Key Features
+### High-Level Requirements
+- Provide a quick overview of beverage sales performance.
+- Identify top-performing products and categories.
+- Compare sales across different regions.
+- Present key metrics in a visually intuitive format.
 
-- Sales performance metrics
-- Regional sales comparison
-- Product category analysis
-- Revenue distribution visualization
+### Use Case
+This dashboard can be used by business analysts and managers to monitor beverage sales performance, identify high-performing products, and make informed decisions about product distribution and marketing strategies.
 
-### Insights
+### Data
+The dashboard uses beverage sales data containing information such as:
+- Product categories
+- Sales revenue
+- Regional performance
+- Product-level sales metrics
 
-- Identifies top-performing beverage categories.
-- Highlights regions contributing the most to total revenue.
-- Enables comparison between different product segments.
+### Constraints / Limitations
+- Data is static and represents a limited snapshot of sales performance.
+- The dashboard does not include real-time updates or automated data refresh.
+- Limited historical data may restrict long-term trend analysis.
+
+### Future Improvements
+- Integrate automated data refresh from a data warehouse or database.
+- Add time-series analysis for seasonal sales patterns.
+- Include profit margins and cost analysis for deeper business insights.
+
 
 ---
 
-## 2. Data Professionals Survey Dashboard
+## Data Professionals Survey Report
 
 ### Description
-This dashboard analyzes survey responses from data professionals to explore trends in job roles, salaries, tools used, and job satisfaction.
+The Data Professionals Survey Report analyzes survey responses from individuals working in data-related roles. The dashboard highlights trends in salaries, job roles, programming languages, and job satisfaction levels across the data industry.
 
-### Key Features
+### High-Level Requirements
+- Visualize salary distributions among different data roles.
+- Identify commonly used programming languages.
+- Compare job satisfaction levels across different job titles.
+- Provide insights into career trends within the data industry.
 
-- Salary distribution analysis
-- Job role comparison
-- Programming language popularity
-- Job satisfaction insights
+### Use Case
+This report can help students, job seekers, and industry professionals understand trends within the data profession, including salary expectations, tool preferences, and satisfaction levels across different roles.
 
-### Insights
+### Data
+The report uses survey data that includes:
+- Job titles
+- Salary ranges
+- Programming languages used
+- Career satisfaction metrics
+- Demographic information
 
-- Provides visibility into common roles within the data industry.
-- Shows relationships between tools, experience, and compensation.
-- Highlights trends in job satisfaction across different roles.
+### Constraints / Limitations
+- Survey responses may contain biases depending on participant demographics.
+- Sample size may not represent the entire global data workforce.
+- Salary information is self-reported and may not reflect exact market averages.
+
+### Future Improvements
+- Include additional demographic segmentation (experience level, location, industry).
+- Expand the dataset with more recent survey responses.
+- Add predictive analysis to identify future trends in the data industry.
+
 
 ---
 
-## 3. Stock Market Dashboard
+## Stocks Dashboard
 
 ### Description
-This dashboard analyzes **Apple Inc. (AAPL)** stock market data and provides insights into stock performance and financial indicators.
+The Stocks Dashboard provides a visual analysis of stock market data for Apple Inc. (AAPL). It displays stock price movements, trading activity, and financial indicators to help users understand the company's market performance.
 
-### Key Features
+### High-Level Requirements
+- Visualize daily stock price movements.
+- Track trading volume over time.
+- Present key financial indicators such as market capitalization and valuation ratios.
+- Allow users to filter data by date range.
 
-- Daily closing price trend visualization
-- Daily trading volume analysis
-- 52-week high and low indicators
-- Market capitalization and valuation metrics
-- Analyst target price comparison
-- Dividend yield information
+### Use Case
+This dashboard can be used by investors, analysts, or financial enthusiasts to explore stock performance trends and evaluate key financial metrics related to Apple Inc.
 
-### Data Source
+### Data
+Stock market data was retrieved using the **Alpha Vantage API**, including:
+- Daily stock prices (Open, High, Low, Close)
+- Trading volume
+- Company financial overview metrics
+- Analyst target prices
+- Market capitalization and valuation ratios
 
-Stock data was retrieved using the **Alpha Vantage API**, which provides financial market data through REST endpoints.
+### Constraints / Limitations
+- Free API access limits the number of requests and the amount of historical data available.
+- Data refresh depends on API availability and rate limits.
+- The dashboard focuses on a single company (AAPL), limiting comparative analysis with other stocks.
 
-### Insights
-
-- Visualizes historical price trends and trading patterns.
-- Identifies periods of high trading activity.
-- Provides key financial indicators useful for evaluating stock performance.
-
----
-
-# Repository Structure
-# Power BI Fundamentals Dashboards
-
-## Overview
-
-This folder contains a collection of **Power BI dashboards** demonstrating foundational data visualization and analytical reporting techniques. The goal of these projects is to transform raw datasets into meaningful insights using **interactive dashboards, visual storytelling, and key performance indicators**.
-
-Each dashboard explores a different dataset and analytical perspective, showcasing how Power BI can be used to analyze business data, survey results, and financial market information.
-
-Both the **Power BI project files (.pbix)** and **exported PDF versions** are included for each dashboard.
-
----
-
-## Tools and Technologies
-
-- Microsoft Power BI Desktop  
-- Power Query (Data Transformation)  
-- DAX (Data Analysis Expressions)  
-- REST API Integration  
-- Microsoft Excel  
-
----
-
-# Dashboards Included
-
----
-
-## 1. Beverage Sales Dashboard
-
-### Description
-This dashboard analyzes beverage sales data to provide insights into product performance, sales distribution, and revenue trends.
-
-### Key Features
-
-- Sales performance metrics
-- Regional sales comparison
-- Product category analysis
-- Revenue distribution visualization
-
-### Insights
-
-- Identifies top-performing beverage categories.
-- Highlights regions contributing the most to total revenue.
-- Enables comparison between different product segments.
-
----
-
-## 2. Data Professionals Survey Dashboard
-
-### Description
-This dashboard analyzes survey responses from data professionals to explore trends in job roles, salaries, tools used, and job satisfaction.
-
-### Key Features
-
-- Salary distribution analysis
-- Job role comparison
-- Programming language popularity
-- Job satisfaction insights
-
-### Insights
-
-- Provides visibility into common roles within the data industry.
-- Shows relationships between tools, experience, and compensation.
-- Highlights trends in job satisfaction across different roles.
-
----
-
-## 3. Stock Market Dashboard
-
-### Description
-This dashboard analyzes **Apple Inc. (AAPL)** stock market data and provides insights into stock performance and financial indicators.
-
-### Key Features
-
-- Daily closing price trend visualization
-- Daily trading volume analysis
-- 52-week high and low indicators
-- Market capitalization and valuation metrics
-- Analyst target price comparison
-- Dividend yield information
-
-### Data Source
-
-Stock data was retrieved using the **Alpha Vantage API**, which provides financial market data through REST endpoints.
-
-### Insights
-
-- Visualizes historical price trends and trading patterns.
-- Identifies periods of high trading activity.
-- Provides key financial indicators useful for evaluating stock performance.
-
----
-
-# Repository Structure
-│
-├── beverage_dashboard
-│ ├── BeverageDashboard.pbix
-│ └── BeverageDashboard.pdf
-│
-├── data_professionals_survey_dashboard
-│ ├── DataProfessionalsSurvey.pbix
-│ └── DataProfessionalsSurvey.pdf
-│
-└── stock_market_dashboard
-├── StockMarketDashboard.pbix
-└── StockMarketDashboard.pdf
-
----
-
-# Key Learnings
-
-Through these projects, the following Power BI skills were applied:
-
-- Designing interactive dashboards
-- Data cleaning and transformation using Power Query
-- Creating calculated measures using DAX
-- Visual storytelling using charts and KPI indicators
-- Integrating external APIs for financial data
-- Structuring dashboards to highlight meaningful insights
-
----
-
-# Author
-
-**Sridhar Ravi Kumar**
+### Future Improvements
+- Expand the dashboard to support multiple stock tickers.
+- Add technical indicators such as moving averages and volatility metrics.
+- Implement automated data refresh for near real-time analysis.
+- Include comparative analysis across multiple companies or sectors.
