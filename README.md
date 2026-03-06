@@ -21,6 +21,14 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_SridharRav
 
 **London Gift Shop (LGS) Retail Analytics & Customer Segmentation** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar/tree/master/python_data_analytics)]:Performed retail transactional data analysis to understand customer purchasing behavior. Queried structured sales data from PostgreSQL, validated aggregations using SQL (GROUP BY, HAVING), and implemented RFM (Recency, Frequency, Monetary) analysis in Python (Pandas, NumPy) to segment customers based on buying patterns. Ensured data integrity through validation checks and transformed raw sales records into actionable business insights to support strategic decision-making.
 
+**Power BI Data Visualization Dashboards** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar/tree/master/powerbi_fundamentals)]:Developed interactive dashboards in Power BI using Power Query for data transformation and DAX for calculated metrics.
+
+Beverage Sales Dashboard: Visualized sales performance across products and regions using KPIs and trend analysis.
+
+Data Professionals Survey Dashboard: Analyzed survey data to explore trends in salaries, job roles, tools, and job satisfaction.
+
+Stock Market Dashboard: Built a financial dashboard analyzing Apple (AAPL) stock data from the Alpha Vantage API, including price trends, trading volume, and key financial indicators.
+
 
 ## Highlighted Projects
 **FitEats AI Meal Planner** [[GitHub](https://github.com/sridhoo/)]: Designed a simple meal-planning application that recommends food options based on user preferences. Built basic automation features such as calorie-range filters and dynamic meal suggestions. Explored the use of AI-assisted components to improve recommendations and experimented with lightweight deployment using AWS and containerized workflows. Focused on building a clean user flow, responsive interface, and easy-to-maintain backend structure.
