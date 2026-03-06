@@ -5,16 +5,13 @@ github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_SridharRav
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
-summary: Data Engineering professional with hands-on experience building backend 
-  applications and data processing systems at Jarvis Consulting Group.
-  I have worked with Java, Linux, Bash, Docker, PostgreSQL, and SQL to build
-  tools such as a containerized Java Grep application and a Linux cluster
-  monitoring system.
-  Previously at Cognizant, I worked on downstream data processing using
-  COBOL-based batch programs, handled file-based data flows, supported
-  month-end operations, and created productivity reports.
-  I enjoy understanding systems end-to-end, writing clear code, and improving
-  reliability through better design and data structure choices.
+summary: Data Engineering professional with hands-on experience building backend applications and 
+  data processing systems at Jarvis Consulting Group. Worked with Java, Linux, Bash, Docker, PostgreSQL, and 
+  SQL to build tools such as a containerized Java Grep application and a Linux cluster monitoring system. 
+  Also contributed to retail data analysis projects using SQL and Python to perform customer segmentation 
+  and analyze transactional data. Previously supported COBOL-based batch programs, file-driven data workflows, 
+  and operational reporting at Cognizant. Interested in understanding systems end-to-end, with a focus on 
+  writing clear, structured code and building reliable, practical solutions.
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
@@ -28,15 +25,15 @@ skills:
     - Agile / Scrum workflows
   # At least 5 skills
   competent:
-    - Maven and Java build tools
-    - Docker (Containerization)
-    - Basic Data Modeling and ETL Concepts
-    - API Integration (Foundational Experience)
-    - AWS EC2 (Deployment Basics)
+    - Maven and Java Build Lifecycle Management
+    - Docker (Containerization & Image Management)
+    - ETL Concepts and Data Validation
+    - REST API Integration (Foundational Experience)
+    - Python (Pandas, NumPy for Data Analysis)
   # At least 5 skills
   familiar:
-    - Power BI and Tableau
-    - Microsoft Excel (reporting and scorecards)
+    - Power BI and Tableau (Data Visualization)
+    - Microsoft Excel (Reporting and Analysis)
     - COBOL (batch programs)
     - N8N automation workflows
     - LLM tools and prompt workflows
@@ -61,6 +58,20 @@ jarvis_projects:
       expressions for filtering and processing, and added logging with SLF4J.
       Packaged the application as a fat JAR using Maven and containerized it
       with Docker to ensure consistent execution across environments.
+    - name: "London Gift Shop Retail Analytics and Customer Segmentation"
+    git_url: "/python_data_analytics"
+    description: Performed retail transactional data analysis to understand customer purchasing behavior. 
+      Queried structured sales data from PostgreSQL and validated aggregations using SQL (GROUP BY, HAVING). 
+      Implemented RFM (Recency, Frequency, Monetary) analysis in Python using Pandas and NumPy to segment 
+      customers based on buying patterns. Ensured data integrity through validation checks and transformed 
+      raw sales records into actionable business insights.
+
+  - name: "Power BI Data Visualization Dashboards"
+    git_url: "/powerbi_fundamentals"
+    description: Developed interactive dashboards in Power BI using Power Query for data transformation and 
+      DAX for calculated metrics. Built dashboards analyzing beverage sales performance, survey data from 
+      data professionals, and Apple stock market trends using Alpha Vantage API data.
+
 
 # List of personal or academic projects
 # Feel free to add more projects
@@ -88,22 +99,18 @@ professional_experience:
     company: "Jarvis Consulting Group"
     duration: "2025 - Present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Worked on backend and data engineering projects using Java, Linux, Bash,
-      SQL, Docker, and PostgreSQL.
-      Built applications to process files and system metrics, automated recurring
-      tasks, and followed structured practices for testing, documentation, and
-      version control in an Agile environment.
+    description: Worked on backend and data engineering projects using Java, Linux, Bash, SQL, Docker,
+     and PostgreSQL. Built applications to process files and system metrics, automated recurring tasks, 
+     and followed structured practices for testing, documentation, and version control in an Agile environment.
+
   - title: "Programmer Analyst"
     company: "Cognizant Technology Solutions"
     duration: "Apr 2022 - Nov 2023"
-    description: Worked on downstream data processing applications where structured data
-      was received from upstream systems in tables and files.
-      Developed and enhanced COBOL batch programs to extract required fields,
-      perform business calculations such as outstanding loss and premium loss,
-      and generate output and error files.
-      Supported job scheduling, performed mock runs during month-end cycles,
-      documented application changes, and created monthly productivity
-      scorecards using Excel.
+    description: Worked on downstream data processing applications where structured data was received from 
+      upstream systems in tables and files. Developed and enhanced COBOL batch programs to extract required 
+      fields, perform business calculations such as outstanding loss and premium loss, and generate output 
+      and error files. Supported job scheduling, performed mock runs during month-end cycles, 
+      documented application changes, and created monthly productivity scorecards using Excel.
 
 #List of edcuation
 education: 
