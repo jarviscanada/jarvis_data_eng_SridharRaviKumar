@@ -1,52 +1,63 @@
 # Sridhar Ravi Kumar . Jarvis Consulting
 
-Software and Data Engineering professional who has built scalable, data-driven solutions through the Jarvis Consulting Group Data Engineering program. Applied strong expertise in Python, SQL, Docker, and PostgreSQL to design and deploy analytics pipelines, automate workflows, and optimize database operations in Agile environments. Previously developed full-stack applications and machine learning models, transforming complex datasets into actionable business insights. Completed dual postgraduate diplomas in Artificial Intelligence and Data Analytics for Business at Durham College, building a solid foundation in data science and cloud technologies. Known for delivering clean, production-ready solutions, collaborating effectively in cross-functional teams, and continuously improving processes to meet client and organizational goals.
+Data Engineering professional with hands-on experience building backend applications and data processing systems at Jarvis Consulting Group. Worked with Java, Linux, Bash, Docker, PostgreSQL, and SQL to build tools such as a containerized Java Grep application and a Linux cluster monitoring system. Also contributed to retail data analysis projects using SQL and Python to perform customer segmentation and analyze transactional data. Previously supported COBOL-based batch programs, file-driven data workflows, and operational reporting at Cognizant. Interested in understanding systems end-to-end, with a focus on writing clear, structured code and building reliable, practical solutions.
 
 ## Skills
 
-**Proficient:** Java, Python and COBOL, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
+**Proficient:** Java (Core Java, Collections, Streams), Linux and Bash, SQL and Relational Databases (PostgreSQL, MySQL), Git and Version Control, Agile / Scrum workflows.
 
-**Competent:** Power BI / Tableau, Docker / AWS EC2, ETL pipeline design and data modeling, Statistics and Predictive Modelling, API integration and automation
+**Competent:** Maven & Build Lifecycle Management, Docker (Containerization & Image Management), ETL Concepts & Data Validation, REST API Integration (Foundational Experience), AWS EC2 (Deployment & Environment Setup), Python (Pandas, NumPy for Data Analysis).
 
-**Familiar:** Microsoft Excel, R, N8N frameworks, LLM, Data warehouse and Analytics
+**Familiar:** Power BI & Tableau (Data Visualization), Microsoft Excel (Reporting & Analysis), COBOL (Batch Processing), N8N Workflow Automation, LLM Tools & Prompt Engineering Workflows.
 
 ## Jarvis Projects
 
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar](https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar)
 
 
-**Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar/tree/master/linux_sql)]: Designed and implemented relational schemas to analyze system metrics collected from Linux hosts.Wrote optimized SQL using joins, aggregations, subqueries, and window functions to extract performance insights.Automated data loading and validation inside a Dockerized PostgreSQL environment using Bash.
+**Linux Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar/tree/master/linux_sql)]: Developed a Bash-based monitoring tool to collect hardware specifications and resource usage from Linux machines. Designed PostgreSQL schemas for host and usage data, automated data collection using Cron, and containerized the database with Docker. Wrote SQL queries to analyze system usage and support operational insights.
 
-**SQL Data Analytics and Modeling** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar/tree/master/sql)]: Designed and implemented relational schemas to analyze system metrics collected from Linux hosts.Wrote optimized SQL using joins, aggregations, subqueries, and window functions to extract performance insights.Automated data loading and validation inside a Dockerized PostgreSQL environment using Bash.
+**Java Grep Application** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar/tree/master/core_java/grep)]: Built a Java-based Grep application to search large text files using regular expressions. Implemented file traversal using Java NIO and Streams, applied lambda expressions for filtering and processing, and added logging with SLF4J. Packaged the application as a fat JAR using Maven and containerized it with Docker to ensure consistent execution across environments.
+
+**London Gift Shop (LGS) Retail Analytics & Customer Segmentation** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar/tree/master/python_data_analytics)]:Performed retail transactional data analysis to understand customer purchasing behavior. Queried structured sales data from PostgreSQL, validated aggregations using SQL (GROUP BY, HAVING), and implemented RFM (Recency, Frequency, Monetary) analysis in Python (Pandas, NumPy) to segment customers based on buying patterns. Ensured data integrity through validation checks and transformed raw sales records into actionable business insights to support strategic decision-making.
+
+**Power BI Data Visualization Dashboards** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar/tree/master/powerbi_fundamentals)]:Developed interactive dashboards in Power BI using Power Query for data transformation and DAX for calculated metrics.
+
+Beverage Sales Dashboard: Visualized sales performance across products and regions using KPIs and trend analysis.
+
+Data Professionals Survey Dashboard: Analyzed survey data to explore trends in salaries, job roles, tools, and job satisfaction.
+
+Stock Market Dashboard: Built a financial dashboard analyzing Apple (AAPL) stock data from the Alpha Vantage API, including price trends, trading volume, and key financial indicators.
 
 
 ## Highlighted Projects
-**FitEats AI Meal Planner** [[GitHub](https://github.com/sridhoo/)]: Developed a personalized meal planning web app with AI-driven recommendations and deployed on AWS using Docker and CI/CD.
+**FitEats AI Meal Planner** [[GitHub](https://github.com/sridhoo/)]: Designed a simple meal-planning application that recommends food options based on user preferences. Built basic automation features such as calorie-range filters and dynamic meal suggestions. Explored the use of AI-assisted components to improve recommendations and experimented with lightweight deployment using AWS and containerized workflows. Focused on building a clean user flow, responsive interface, and easy-to-maintain backend structure.
 
-**Sales Performance Dashboard** [[GitHub](https://github.com/sridhoo/)]: Migrated executive reporting from Excel to Power BI, enabling automated refresh and KPI tracking across regions.
+**Sales Performance Dashboard** [[GitHub](https://github.com/sridhoo/)]: Created a Power BI dashboard to track sales performance across regions. Converted manual Excel reports into automated dashboards with KPIs, filters, and scheduled refreshes, reducing manual reporting effort.
 
 
 ## Professional Experiences
 
-**Data Engineer, Jarvis Consulting Group (2025 - Present)**: Delivered end-to-end data engineering solutions using Python, SQL, Docker, and Linux within Agile sprints.Built ETL pipelines, automated data collection and reporting, and managed PostgreSQL in containerized environments.Collaborated with DevOps to implement CI/CD on AWS EC2 using GitHub Actions and improved system monitoring with Bash automation.
+**Data Engineer, Jarvis Consulting Group (2025 - Present)**: Worked on backend and data engineering projects using Java, Linux, Bash, SQL, Docker, and PostgreSQL. Built applications to process files and system metrics, automated recurring tasks, and followed structured practices for testing, documentation, and version control in an Agile environment.
 
-**Programmer Analyst, Cognizant Technology Solutions (Apr 2022 - Nov 2023)**: Developed downstream data applications achieving high first-release accuracy.Automated monthly performance reporting using Python and SQL to reduce delivery time, and produced KPI scorecards that improved operational decisions.Authored technical documentation and collaborated with cross-functional teams.
+**Programmer Analyst, Cognizant Technology Solutions (Apr 2022 - Nov 2023)**: Worked on downstream data processing applications where structured data was received from upstream systems in tables and files. Developed and enhanced COBOL batch programs to extract required fields, perform business calculations such as outstanding loss and premium loss, and generate output and error files. Supported job scheduling, performed mock runs during month-end cycles, documented application changes, and created monthly productivity scorecards using Excel.
 
 
 ## Education
 **Durham College (Jan 2024 - Aug 2025)**, Postgraduate Diplomas, Artificial Intelligence and Data Analytics for Business
 - Completed dual postgraduate programs with Honours
-- Built AI and data applications: AI Career Advisor, Sustainable Healthcare, Fraud Detection
-- GPA: 4.5/5.0 - Honours 
+- Built applied AI and data projects including AI Career Advisor and Sustainable Healthcare solutions
+- Graduated with Honours
 
 **Anna University (Aug 2017 - Aug 2021)**, Bachelor of Engineering, Mechanical Engineering
-- Designed and built a semi-automatic staircase climbing trolley for load transport using motorized mechanisms
-- Presented at College Technical Expo for innovation and practical design
-- Graduated with First Class - GPA: 8/10
+- Designed a semi-automatic staircase climbing trolley as a final-year project
+- Presented technical work at college-level expos
+- Graduated with First Class - CGPA: 8/10
 
 
 ## Miscellaneous
-- **Key Speaker:** Delivered a two-day webinar on 'How to Become a Freelancer' and 'Superbikes' for high school students
-- **Freelance Technical Roles:** Experience in exam operations, digital content management, network support, and tech support across multiple organizations
-- **Motorcycle Enthusiast & AI Explorer:** Passion for engineering, mechanics, and automation tools
-- **Volunteer:** Cognizant Outreach
+- Delivered technical and career guidance sessions to students
+- Actively contributed to planning and executing outreach and engagement events at Cognizant
+- Participated in and won multiple team-based fun and engagement activities, reflecting collaboration and involvement beyond day-to-day work
+- Worked in exam administration, technical support, and digital operations roles
+- Travel, motorcycles, and understanding how mechanical and software systems work
