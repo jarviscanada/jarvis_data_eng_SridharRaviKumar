@@ -4,7 +4,7 @@ name: "Sridhar Ravi Kumar"
 # Your GitHub repo root URL
 github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar
 
-summary: Data Engineering professional with hands-on experience building backend applications and data processing systems at Jarvis Consulting Group. Worked with Java, Linux, Bash, Docker, PostgreSQL, and SQL to build tools such as a containerized Java Grep application and a Linux cluster monitoring system. Also contributed to retail data analysis projects using SQL and Python to perform customer segmentation and analyze transactional data. Previously supported COBOL-based batch programs, file-driven data workflows, and operational reporting at Cognizant. Interested in understanding systems end-to-end, with a focus on writing clear, structured code and building reliable, practical solutions.
+summary: Data Engineering professional with hands-on experience building backend applications and data processing systems at Jarvis Consulting Group. Developed tools such as a containerized Java Grep application and a Linux cluster monitoring system using Java, Linux, Bash, Docker, PostgreSQL, and SQL. Also worked on retail analytics projects by extracting data from PostgreSQL and performing customer segmentation using Python (Pandas, NumPy) through RFM analysis. Built interactive Power BI dashboards to visualize business and financial datasets, including survey analytics and stock market data. Previously supported COBOL-based batch processing and operational reporting systems at Cognizant. Interested in understanding systems end-to-end and building reliable, structured solutions that turn data into meaningful insights.
 
 skills:
 
