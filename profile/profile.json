@@ -26,7 +26,7 @@
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar",
   "highlighted_projects": [
     {
-      "description": "Designed a simple meal-planning application that recommends food options based on user preferences. Built basic automation features such as calorie-range filters and dynamic meal suggestions. Explored the use of AI-assisted components to improve recommendations and experimented with lightweight deployment using AWS and containerized workflows. Focused on building a clean user flow, responsive interface, and easy-to-maintain backend structure.",
+      "description": "Designed a meal-planning application that recommends food options based on user preferences. Built automation features such as calorie-range filters and dynamic meal suggestions, and explored AI-assisted components to improve recommendations. Focused on building a clean user flow and maintainable backend structure.",
       "git_url": "https://github.com/sridhoo/",
       "name": "FitEats AI Meal Planner"
     },
@@ -46,6 +46,16 @@
       "description": "Built a Java-based Grep application to search large text files using regular expressions. Implemented file traversal using Java NIO and Streams, applied lambda expressions for filtering and processing, and added logging with SLF4J. Packaged the application as a fat JAR using Maven and containerized it with Docker to ensure consistent execution across environments.",
       "git_url": "/core_java/grep",
       "name": "Java Grep Application"
+    },
+    {
+      "description": "Performed retail transactional data analysis to understand customer purchasing behavior. Queried structured sales data from PostgreSQL and validated aggregations using SQL (GROUP BY, HAVING). Implemented RFM (Recency, Frequency, Monetary) analysis in Python using Pandas and NumPy to segment customers based on buying patterns. Ensured data integrity through validation checks and transformed raw sales records into actionable business insights.",
+      "git_url": "/python_data_analytics",
+      "name": "London Gift Shop Retail Analytics and Customer Segmentation"
+    },
+    {
+      "description": "Developed interactive dashboards in Power BI using Power Query for data transformation and DAX for calculated metrics. Built dashboards analyzing beverage sales performance, survey data from data professionals, and Apple stock market trends using Alpha Vantage API data.",
+      "git_url": "/powerbi_fundamentals",
+      "name": "Power BI Data Visualization Dashboards"
     }
   ],
   "name": "Sridhar Ravi Kumar",
@@ -53,8 +63,8 @@
     {
       "bullets": [
         "Delivered technical and career guidance sessions to students",
-        "Actively contributed to planning and executing outreach and engagement events at Cognizant",
-        "Participated in and won multiple team-based fun and engagement activities, reflecting collaboration and involvement beyond day-to-day work"
+        "Actively contributed to outreach and engagement initiatives at Cognizant",
+        "Participated in multiple team collaboration and engagement activities"
       ],
       "title": "Workplace Engagement \u0026 Outreach"
     },
@@ -87,18 +97,19 @@
   ],
   "skills": {
     "competent": [
-      "Maven and Java build tools",
-      "Docker (Containerization)",
-      "Basic Data Modeling and ETL Concepts",
-      "API Integration (Foundational Experience)",
-      "AWS EC2 (Deployment Basics)"
+      "Maven and Java Build Lifecycle Management",
+      "Docker (Containerization \u0026 Image Management)",
+      "ETL Concepts and Data Validation",
+      "REST API Integration (Foundational Experience)",
+      "AWS EC2 (Deployment and Environment Setup)",
+      "Python (Pandas, NumPy for Data Analysis)"
     ],
     "familiar": [
-      "Power BI and Tableau",
-      "Microsoft Excel (reporting and scorecards)",
-      "COBOL (batch programs)",
-      "N8N automation workflows",
-      "LLM tools and prompt workflows"
+      "Power BI and Tableau (Data Visualization)",
+      "Microsoft Excel (Reporting and Analysis)",
+      "COBOL (Batch Processing)",
+      "N8N Workflow Automation",
+      "LLM Tools and Prompt Engineering Workflows"
     ],
     "proficient": [
       "Java (Core Java, Collections, Streams)",
@@ -108,5 +119,5 @@
       "Agile / Scrum workflows"
     ]
   },
-  "summary": "Data Engineering professional with hands-on experience building backend applications and data processing systems at Jarvis Consulting Group. I have worked with Java, Linux, Bash, Docker, PostgreSQL, and SQL to build tools such as a containerized Java Grep application and a Linux cluster monitoring system. Previously at Cognizant, I worked on downstream data processing using COBOL-based batch programs, handled file-based data flows, supported month-end operations, and created productivity reports. I enjoy understanding systems end-to-end, writing clear code, and improving reliability through better design and data structure choices."
+  "summary": "Data Engineering professional with hands-on experience building backend applications and data processing systems at Jarvis Consulting Group. Worked with Java, Linux, Bash, Docker, PostgreSQL, and SQL to build tools such as a containerized Java Grep application and a Linux cluster monitoring system. Also contributed to retail data analysis projects using SQL and Python to perform customer segmentation and analyze transactional data. Previously supported COBOL-based batch programs, file-driven data workflows, and operational reporting at Cognizant. Interested in understanding systems end-to-end, with a focus on writing clear, structured code and building reliable, practical solutions."
 }
