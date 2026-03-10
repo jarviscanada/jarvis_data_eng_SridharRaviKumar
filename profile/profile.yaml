@@ -4,7 +4,7 @@ name: "Sridhar Ravi Kumar"
 # Your GitHub repo root URL
 github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar
 
-summary: Data Engineering professional with hands-on experience building backend applications and data processing systems at Jarvis Consulting Group. Developed tools such as a containerized Java Grep application and a Linux cluster monitoring system using Java, Linux, Bash, Docker, PostgreSQL, and SQL. Also worked on retail analytics projects by extracting data from PostgreSQL and performing customer segmentation using Python (Pandas, NumPy) through RFM analysis. Built interactive Power BI dashboards to visualize business and financial datasets, including survey analytics and stock market data. Previously supported COBOL-based batch processing and operational reporting systems at Cognizant. Interested in understanding systems end-to-end and building reliable, structured solutions that turn data into meaningful insights.
+summary: Data-focused professional with hands-on experience building analytical dashboards, processing structured data, and developing backend tools through the Jarvis Consulting Group training program. Worked with Power BI, SQL, and Python to transform raw datasets into clear reports and insights. Built multiple projects including system monitoring tools, retail customer analytics, and interactive dashboards for business reporting. Comfortable working in Agile team environments and communicating technical findings in a simple and structured way. Interested in roles where data, reporting, and collaboration help teams make better decisions.
 
 skills:
 
@@ -16,15 +16,15 @@ skills:
     - Agile / Scrum workflows
 
   competent:
+    - Power BI (Data Modeling, DAX, Dashboard Development)
+    - Python (Pandas, NumPy for Data Analysis)
     - Maven and Java Build Lifecycle Management
     - Docker (Containerization & Image Management)
     - ETL Concepts and Data Validation
-    - REST API Integration (Foundational Experience)
     - AWS EC2 (Deployment and Environment Setup)
-    - Python (Pandas, NumPy for Data Analysis)
 
   familiar:
-    - Power BI and Tableau (Data Visualization)
+    - Software Testing Fundamentals (STLC, Regression Testing Basics)
     - Microsoft Excel (Reporting and Analysis)
     - COBOL (Batch Processing)
     - N8N Workflow Automation
@@ -34,41 +34,41 @@ jarvis_projects:
 
   - name: "Linux Cluster Monitor"
     git_url: "/linux_sql"
-    description: Developed a Bash-based monitoring tool to collect hardware specifications and resource usage from Linux machines. Designed PostgreSQL schemas for host and usage data, automated data collection using Cron, and containerized the database with Docker. Wrote SQL queries to analyze system usage and support operational insights.
+    description: Developed a Bash-based monitoring tool to collect hardware specifications and resource usage from Linux machines. Designed PostgreSQL schemas to store host information and usage metrics. Automated data collection using Cron jobs and containerized the database using Docker. Used SQL queries to analyze system performance and resource usage.
 
   - name: "Java Grep Application"
     git_url: "/core_java/grep"
-    description: Built a Java-based Grep application to search large text files using regular expressions. Implemented file traversal using Java NIO and Streams, applied lambda expressions for filtering and processing, and added logging with SLF4J. Packaged the application as a fat JAR using Maven and containerized it with Docker to ensure consistent execution across environments.
+    description: Built a Java-based application to search large text files using regular expressions. Implemented file processing using Java NIO and Streams, and used lambda expressions for filtering results. Packaged the application using Maven and deployed it as a Docker container to ensure consistent execution across environments.
 
   - name: "London Gift Shop Retail Analytics and Customer Segmentation"
     git_url: "/python_data_analytics"
-    description: Performed retail transactional data analysis to understand customer purchasing behavior. Queried structured sales data from PostgreSQL and validated aggregations using SQL (GROUP BY, HAVING). Implemented RFM (Recency, Frequency, Monetary) analysis in Python using Pandas and NumPy to segment customers based on buying patterns. Ensured data integrity through validation checks and transformed raw sales records into actionable business insights.
+    description: Analyzed retail transaction data to understand customer purchasing behavior. Extracted and validated data from PostgreSQL using SQL queries. Implemented RFM (Recency, Frequency, Monetary) customer segmentation using Python with Pandas and NumPy. Generated business insights by identifying high-value customers and purchasing patterns.
 
   - name: "Power BI Data Visualization Dashboards"
     git_url: "/powerbi_fundamentals"
-    description: Developed interactive dashboards in Power BI using Power Query for data transformation and DAX for calculated metrics. Built dashboards analyzing beverage sales performance, survey data from data professionals, and Apple stock market trends using Alpha Vantage API data.
+    description: Developed interactive Power BI dashboards using Power Query for data preparation and DAX for calculated metrics. Built dashboards to analyze business datasets including beverage sales performance, survey insights from data professionals, and stock market trends. Enabled filtering and drill-down views to help users explore performance metrics.
 
 highlighted_projects:
 
   - name: "FitEats AI Meal Planner"
     git_url: "https://github.com/sridhoo/"
-    description: Designed a meal-planning application that recommends food options based on user preferences. Built automation features such as calorie-range filters and dynamic meal suggestions, and explored AI-assisted components to improve recommendations. Focused on building a clean user flow and maintainable backend structure.
+    description: Designed a meal planning application that recommends food options based on user preferences. Implemented filtering features and basic automation logic for generating meal suggestions. Focused on building a simple user flow and structured backend logic.
 
   - name: "Sales Performance Dashboard"
     git_url: "https://github.com/sridhoo/"
-    description: Created a Power BI dashboard to track sales performance across regions. Converted manual Excel reports into automated dashboards with KPIs, filters, and scheduled refreshes, reducing manual reporting effort.
+    description: Created a Power BI dashboard to track sales performance across different regions. Converted manual Excel reports into automated visual dashboards with KPIs, filters, and summary metrics to support faster decision making.
 
 professional_experience:
 
   - title: "Data Engineer"
     company: "Jarvis Consulting Group"
     duration: "2025 - Present"
-    description: Worked on backend and data engineering projects using Java, Linux, Bash, SQL, Docker, and PostgreSQL. Built applications to process files and system metrics, automated recurring tasks, and followed structured practices for testing, documentation, and version control in an Agile environment.
+    description: Worked on data engineering and analytics projects using Java, Linux, Bash, SQL, Docker, Python, and Power BI. Built backend tools to process files and collect system metrics, developed analytical dashboards, and followed structured development practices including documentation, version control, and collaborative project reviews in an Agile learning environment.
 
   - title: "Programmer Analyst"
     company: "Cognizant Technology Solutions"
     duration: "Apr 2022 - Nov 2023"
-    description: Worked on downstream data processing applications where structured data was received from upstream systems in tables and files. Developed and enhanced COBOL batch programs to extract required fields, perform business calculations such as outstanding loss and premium loss, and generate output and error files. Supported job scheduling, performed mock runs during month-end cycles, documented application changes, and created monthly productivity scorecards using Excel.
+    description: Worked on enterprise batch processing systems that handled structured data from upstream applications. Developed and maintained COBOL batch programs to extract data, perform calculations such as outstanding loss and premium loss, and generate output files for reporting. Supported job scheduling, executed mock runs during month-end cycles, documented system changes, and created productivity reports using Excel.
 
 education:
 
@@ -78,7 +78,7 @@ education:
     department: "Artificial Intelligence and Data Analytics for Business"
     awards_achievements:
       - "Completed dual postgraduate programs with Honours"
-      - "Built applied AI and data projects including AI Career Advisor and Sustainable Healthcare solutions"
+      - "Built applied AI and data analytics projects including AI Career Advisor and healthcare analytics solutions"
       - "Graduated with Honours"
 
   - school_name: "Anna University"
@@ -95,8 +95,7 @@ others:
   - title: "Workplace Engagement & Outreach"
     bullets:
       - "Delivered technical and career guidance sessions to students"
-      - "Actively contributed to outreach and engagement initiatives at Cognizant"
-      - "Participated in multiple team collaboration and engagement activities"
+      - "Participated in internal knowledge sharing and engagement activities"
 
   - title: "Freelance and Support Experience"
     bullets:
