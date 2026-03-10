@@ -1,46 +1,46 @@
 # Sridhar Ravi Kumar . Jarvis Consulting
 
-Data Engineering professional with hands-on experience building backend applications and data processing systems at Jarvis Consulting Group. Developed tools such as a containerized Java Grep application and a Linux cluster monitoring system using Java, Linux, Bash, Docker, PostgreSQL, and SQL. Also worked on retail analytics projects by extracting data from PostgreSQL and performing customer segmentation using Python (Pandas, NumPy) through RFM analysis. Built interactive Power BI dashboards to visualize business and financial datasets, including survey analytics and stock market data. Previously supported COBOL-based batch processing and operational reporting systems at Cognizant. Interested in understanding systems end-to-end and building reliable, structured solutions that turn data into meaningful insights.
+Data-focused professional with hands-on experience building analytical dashboards, processing structured data, and developing backend tools through the Jarvis Consulting Group training program. Worked with Power BI, SQL, and Python to transform raw datasets into clear reports and insights. Built multiple projects including system monitoring tools, retail customer analytics, and interactive dashboards for business reporting. Comfortable working in Agile team environments and communicating technical findings in a simple and structured way. Interested in roles where data, reporting, and collaboration help teams make better decisions.
 
 ## Skills
 
 **Proficient:** Java (Core Java, Collections, Streams), Linux and Bash, SQL and Relational Databases (PostgreSQL, MySQL), Git and Version Control, Agile / Scrum workflows
 
-**Competent:** Maven and Java Build Lifecycle Management, Docker (Containerization & Image Management), ETL Concepts and Data Validation, REST API Integration (Foundational Experience), AWS EC2 (Deployment and Environment Setup), Python (Pandas, NumPy for Data Analysis)
+**Competent:** Power BI (Data Modeling, DAX, Dashboard Development), Python (Pandas, NumPy for Data Analysis), Maven and Java Build Lifecycle Management, Docker (Containerization & Image Management), ETL Concepts and Data Validation, AWS EC2 (Deployment and Environment Setup)
 
-**Familiar:** Power BI and Tableau (Data Visualization), Microsoft Excel (Reporting and Analysis), COBOL (Batch Processing), N8N Workflow Automation, LLM Tools and Prompt Engineering Workflows
+**Familiar:** Software Testing Fundamentals (STLC, Regression Testing Basics), Microsoft Excel (Reporting and Analysis), COBOL (Batch Processing), N8N Workflow Automation, LLM Tools and Prompt Engineering Workflows
 
 ## Jarvis Projects
 
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar](https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar)
 
 
-**Linux Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar/tree/master/linux_sql)]: Developed a Bash-based monitoring tool to collect hardware specifications and resource usage from Linux machines. Designed PostgreSQL schemas for host and usage data, automated data collection using Cron, and containerized the database with Docker. Wrote SQL queries to analyze system usage and support operational insights.
+**Linux Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar/tree/master/linux_sql)]: Developed a Bash-based monitoring tool to collect hardware specifications and resource usage from Linux machines. Designed PostgreSQL schemas to store host information and usage metrics. Automated data collection using Cron jobs and containerized the database using Docker. Used SQL queries to analyze system performance and resource usage.
 
-**Java Grep Application** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar/tree/master/core_java/grep)]: Built a Java-based Grep application to search large text files using regular expressions. Implemented file traversal using Java NIO and Streams, applied lambda expressions for filtering and processing, and added logging with SLF4J. Packaged the application as a fat JAR using Maven and containerized it with Docker to ensure consistent execution across environments.
+**Java Grep Application** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar/tree/master/core_java/grep)]: Built a Java-based application to search large text files using regular expressions. Implemented file processing using Java NIO and Streams, and used lambda expressions for filtering results. Packaged the application using Maven and deployed it as a Docker container to ensure consistent execution across environments.
 
-**London Gift Shop Retail Analytics and Customer Segmentation** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar/tree/master/python_data_analytics)]: Performed retail transactional data analysis to understand customer purchasing behavior. Queried structured sales data from PostgreSQL and validated aggregations using SQL (GROUP BY, HAVING). Implemented RFM (Recency, Frequency, Monetary) analysis in Python using Pandas and NumPy to segment customers based on buying patterns. Ensured data integrity through validation checks and transformed raw sales records into actionable business insights.
+**London Gift Shop Retail Analytics and Customer Segmentation** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar/tree/master/python_data_analytics)]: Analyzed retail transaction data to understand customer purchasing behavior. Extracted and validated data from PostgreSQL using SQL queries. Implemented RFM (Recency, Frequency, Monetary) customer segmentation using Python with Pandas and NumPy. Generated business insights by identifying high-value customers and purchasing patterns.
 
-**Power BI Data Visualization Dashboards** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar/tree/master/powerbi_fundamentals)]: Developed interactive dashboards in Power BI using Power Query for data transformation and DAX for calculated metrics. Built dashboards analyzing beverage sales performance, survey data from data professionals, and Apple stock market trends using Alpha Vantage API data.
+**Power BI Data Visualization Dashboards** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar/tree/master/powerbi_fundamentals)]: Developed interactive Power BI dashboards using Power Query for data preparation and DAX for calculated metrics. Built dashboards to analyze business datasets including beverage sales performance, survey insights from data professionals, and stock market trends. Enabled filtering and drill-down views to help users explore performance metrics.
 
 
 ## Highlighted Projects
-**FitEats AI Meal Planner** [[GitHub](https://github.com/sridhoo/)]: Designed a meal-planning application that recommends food options based on user preferences. Built automation features such as calorie-range filters and dynamic meal suggestions, and explored AI-assisted components to improve recommendations. Focused on building a clean user flow and maintainable backend structure.
+**FitEats AI Meal Planner** [[GitHub](https://github.com/sridhoo/)]: Designed a meal planning application that recommends food options based on user preferences. Implemented filtering features and basic automation logic for generating meal suggestions. Focused on building a simple user flow and structured backend logic.
 
-**Sales Performance Dashboard** [[GitHub](https://github.com/sridhoo/)]: Created a Power BI dashboard to track sales performance across regions. Converted manual Excel reports into automated dashboards with KPIs, filters, and scheduled refreshes, reducing manual reporting effort.
+**Sales Performance Dashboard** [[GitHub](https://github.com/sridhoo/)]: Created a Power BI dashboard to track sales performance across different regions. Converted manual Excel reports into automated visual dashboards with KPIs, filters, and summary metrics to support faster decision making.
 
 
 ## Professional Experiences
 
-**Data Engineer, Jarvis Consulting Group (2025 - Present)**: Worked on backend and data engineering projects using Java, Linux, Bash, SQL, Docker, and PostgreSQL. Built applications to process files and system metrics, automated recurring tasks, and followed structured practices for testing, documentation, and version control in an Agile environment.
+**Data Engineer, Jarvis Consulting Group (2025 - Present)**: Worked on data engineering and analytics projects using Java, Linux, Bash, SQL, Docker, Python, and Power BI. Built backend tools to process files and collect system metrics, developed analytical dashboards, and followed structured development practices including documentation, version control, and collaborative project reviews in an Agile learning environment.
 
-**Programmer Analyst, Cognizant Technology Solutions (Apr 2022 - Nov 2023)**: Worked on downstream data processing applications where structured data was received from upstream systems in tables and files. Developed and enhanced COBOL batch programs to extract required fields, perform business calculations such as outstanding loss and premium loss, and generate output and error files. Supported job scheduling, performed mock runs during month-end cycles, documented application changes, and created monthly productivity scorecards using Excel.
+**Programmer Analyst, Cognizant Technology Solutions (Apr 2022 - Nov 2023)**: Worked on enterprise batch processing systems that handled structured data from upstream applications. Developed and maintained COBOL batch programs to extract data, perform calculations such as outstanding loss and premium loss, and generate output files for reporting. Supported job scheduling, executed mock runs during month-end cycles, documented system changes, and created productivity reports using Excel.
 
 
 ## Education
 **Durham College (Jan 2024 - Aug 2025)**, Postgraduate Diplomas, Artificial Intelligence and Data Analytics for Business
 - Completed dual postgraduate programs with Honours
-- Built applied AI and data projects including AI Career Advisor and Sustainable Healthcare solutions
+- Built applied AI and data analytics projects including AI Career Advisor and healthcare analytics solutions
 - Graduated with Honours
 
 **Anna University (Aug 2017 - Aug 2021)**, Bachelor of Engineering, Mechanical Engineering
@@ -51,7 +51,6 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_SridharRav
 
 ## Miscellaneous
 - Delivered technical and career guidance sessions to students
-- Actively contributed to outreach and engagement initiatives at Cognizant
-- Participated in multiple team collaboration and engagement activities
+- Participated in internal knowledge sharing and engagement activities
 - Worked in exam administration, technical support, and digital operations roles
 - Travel, motorcycles, and understanding how mechanical and software systems work
