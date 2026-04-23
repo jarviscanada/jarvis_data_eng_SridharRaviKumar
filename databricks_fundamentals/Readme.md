@@ -60,6 +60,7 @@ Using PySpark, I performed:
 
 ### Architecture Overview
 
+![Fraud Analytics Architecture](./docs/Architecture.png)
 This project follows the Medallion Architecture:
 
 #### Bronze Layer
@@ -149,9 +150,24 @@ Data Source → HDFS → Spark Processing (Zeppelin) → Hive Tables
 ---
 
 ### Architecture Diagram
-## Architecture Diagram
-
-![Diagram showing the medallion architecture for a fraud analytics pipeline, with data sources Azure SQL and ADLS Gen2 at the top, flowing downward through Bronze Layer for raw ingestion, Silver Layer for clean and enriched data, Gold Layer for aggregated analytics, and finally to Dashboard for business insights.](./docs/Architecture.png)
+    +------------------+
+    |   Data Source    |
+    +--------+---------+
+             |
+             v
+    +------------------+
+    |       HDFS       |
+    +--------+---------+
+             |
+             v
+    +------------------+
+    |  Spark (Zeppelin)|
+    +--------+---------+
+             |
+             v
+    +------------------+
+    |   Hive Tables    |
+    +------------------+
 
 ---
 
