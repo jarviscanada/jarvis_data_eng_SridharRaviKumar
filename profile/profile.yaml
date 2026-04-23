@@ -16,7 +16,7 @@ skills:
     - Agile / Scrum workflows
 
   competent:
-    - - Power BI (Data Modeling, DAX, Dashboard Development)
+    - Power BI (Data Modeling, DAX, Dashboard Development)
     - Python (Pandas, NumPy for Data Analysis)
     - Apache Spark (PySpark, DataFrames, transformations, aggregations)
     - Databricks (Notebooks, Delta Tables, Workflows, SQL Dashboard)
@@ -28,7 +28,7 @@ skills:
     - Maven and Java Build Lifecycle Management
 
   familiar:
-    - - Azure Data Factory (basic ingestion flow understanding)
+    - Azure Data Factory (basic ingestion flow understanding)
     - GCP Dataproc (basic cluster setup and usage)
     - Apache Zeppelin (data exploration using notebooks)
     - Hive Metastore / Data Catalog concepts
