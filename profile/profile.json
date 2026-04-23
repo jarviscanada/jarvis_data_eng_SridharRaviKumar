@@ -1,0 +1,140 @@
+{
+  "education": [
+    {
+      "awards_achievements": [
+        "Completed dual postgraduate programs with Honours",
+        "Built applied AI and data analytics projects including AI Career Advisor and healthcare analytics solutions",
+        "Graduated with Honours"
+      ],
+      "degree": "Postgraduate Diplomas",
+      "department": "Artificial Intelligence and Data Analytics for Business",
+      "duration": "Jan 2024 - Aug 2025",
+      "school_name": "Durham College"
+    },
+    {
+      "awards_achievements": [
+        "Designed a semi-automatic staircase climbing trolley as a final-year project",
+        "Presented technical work at college-level expos",
+        "Graduated with First Class - CGPA: 8/10"
+      ],
+      "degree": "Bachelor of Engineering",
+      "department": "Mechanical Engineering",
+      "duration": "Aug 2017 - Aug 2021",
+      "school_name": "Anna University"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar",
+  "highlighted_projects": [
+    {
+      "description": "Built a machine learning-based project to suggest IT career paths based on user inputs like skills and interests. Designed a simple questionnaire flow and used models to generate recommendations. Focused on making the output easy to understand.",
+      "git_url": "https://github.com/sridhoo/",
+      "name": "AI Career Advisor"
+    },
+    {
+      "description": "Built a machine learning-based project to suggest IT career paths based on user inputs like skills and interests. Designed a simple questionnaire flow and used models to generate recommendations. Focused on making the output easy to understand.",
+      "git_url": "https://github.com/sridhoo/",
+      "name": "FitEats AI Meal Planner"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Built an end-to-end fraud analytics pipeline using Azure Databricks and PySpark. Ingested transaction data from Azure SQL using JDBC and loaded supporting files from ADLS Gen2. Implemented Medallion Architecture with separate Bronze, Silver, and Gold notebooks, enriched transaction data using merchant category and fraud label datasets, and created multiple Gold tables to answer business questions on fraud trends, risky users, merchant risk, time-of-day patterns, and financial loss. Built and published a Databricks SQL dashboard on top of Gold tables and orchestrated the pipeline using Databricks Workflows.",
+      "git_url": "/databricks_fundamentals",
+      "name": "Azure Databricks Fraud Analytics Pipeline"
+    },
+    {
+      "description": "Built a Bash-based monitoring tool to collect hardware details and system usage data from Linux machines. Stored the data in PostgreSQL and automated collection using Cron jobs. Used Docker to manage the database setup. Helped track system performance over time using simple SQL queries.",
+      "git_url": "/linux_sql",
+      "name": "Linux Cluster Monitor"
+    },
+    {
+      "description": "Developed a Java application to search and filter large text files using regular expressions. Used Java NIO and Streams for file handling. Packaged the application with Maven and Docker so it can run consistently across environments. Added logging to make debugging easier.",
+      "git_url": "/core_java/grep",
+      "name": "Java Grep Application"
+    },
+    {
+      "description": "Worked with retail transaction data to understand customer behavior. Extracted data using SQL and processed it using Python. Implemented RFM (Recency, Frequency, Monetary) segmentation to group customers and identify patterns. Used the results to explain which customers are valuable and which may need attention.",
+      "git_url": "/python_data_analytics",
+      "name": "London Gift Shop Retail Analytics and Customer Segmentation"
+    },
+    {
+      "description": "Created Power BI dashboards for different datasets like sales, surveys, and stock data. Used Power Query for data cleaning and DAX for calculations. Built simple and clear visuals with filters so users can explore the data and understand key metrics.",
+      "git_url": "/powerbi_fundamentals",
+      "name": "Power BI Data Visualization Dashboards"
+    },
+    {
+      "description": "Processed World Development Indicator data using PySpark in Zeppelin and Databricks. Worked with distributed DataFrames, applied transformations and aggregations, and queried processed datasets using Spark SQL and Hive-based metadata concepts. Used this project to strengthen understanding of partitions, distributed execution, and the difference between single-node and cluster-based processing.",
+      "git_url": "/spark",
+      "name": "Spark Data Processing (WDI Dataset)"
+    }
+  ],
+  "name": "Sridhar Ravi Kumar",
+  "others": [
+    {
+      "bullets": [
+        "Delivered technical and career guidance sessions to students",
+        "Participated in internal knowledge sharing and engagement activities"
+      ],
+      "title": "Workplace Engagement \u0026 Outreach"
+    },
+    {
+      "bullets": [
+        "Worked in exam administration, technical support, and digital operations roles"
+      ],
+      "title": "Freelance and Support Experience"
+    },
+    {
+      "bullets": [
+        "Travel, motorcycles, and understanding how mechanical and software systems work"
+      ],
+      "title": "Interests"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis Consulting Group",
+      "description": "Built data and backend projects using SQL, Python, Java, Power BI, Spark, and Databricks. Developed monitoring tools, analytics workflows, dashboards, and ETL pipelines as part of project-based training. Recently completed an Azure Databricks fraud analytics pipeline using Azure SQL, ADLS Gen2, PySpark, Medallion Architecture, Databricks SQL Dashboard, and Workflows. Followed structured development practices and worked in an Agile environment.",
+      "duration": "2025 - Present",
+      "title": "Data Engineer"
+    },
+    {
+      "company": "Cognizant Technology Solutions",
+      "description": "Worked on batch processing systems using COBOL. Handled data from upstream systems, performed calculations, and generated output files for reporting. Supported job runs, debugging, and month-end processes. Also created Excel reports for tracking and documentation.",
+      "duration": "Apr 2022 - Nov 2023",
+      "title": "Programmer Analyst"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "Power BI (Data Modeling, DAX, Dashboard Development)",
+      "Python (Pandas, NumPy for Data Analysis)",
+      "Apache Spark (PySpark, DataFrames, transformations, aggregations)",
+      "Databricks (Notebooks, Delta Tables, Workflows, SQL Dashboard)",
+      "Azure Databricks (Medallion Architecture, ETL Pipelines)",
+      "Azure Data Lake Storage Gen2 (External Location, file-based ingestion)",
+      "Azure SQL Database (JDBC-based ingestion)",
+      "ETL / ELT Concepts and Data Validation",
+      "Docker (Containerization \u0026 Image Management)",
+      "Maven and Java Build Lifecycle Management"
+    ],
+    "familiar": [
+      "Azure Data Factory (basic ingestion flow understanding)",
+      "GCP Dataproc (basic cluster setup and usage)",
+      "Apache Zeppelin (data exploration using notebooks)",
+      "Hive Metastore / Data Catalog concepts",
+      "Software Testing Fundamentals (STLC, Regression Testing Basics)",
+      "Microsoft Excel (Reporting and Analysis)",
+      "COBOL (Batch Processing)",
+      "N8N Workflow Automation",
+      "LLM Tools and Prompt-based workflows"
+    ],
+    "proficient": [
+      "Java (Core Java, Collections, Streams)",
+      "Linux and Bash",
+      "SQL and Relational Databases (PostgreSQL, MySQL)",
+      "Git and Version Control",
+      "Agile / Scrum workflows"
+    ]
+  },
+  "summary": "Data-focused professional with hands-on experience building end-to-end analytics and data engineering projects using SQL, Python, Power BI, Spark, and Databricks. Built solutions for system monitoring, customer analytics, dashboarding, and distributed data processing. Recently completed an Azure Databricks fraud analytics pipeline using Medallion Architecture (Bronze, Silver, Gold), integrating Azure SQL, ADLS Gen2, PySpark, Databricks SQL Dashboard, and Workflows for orchestration. Comfortable working in Agile teams and explaining technical work in a clear, structured way."
+}

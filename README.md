@@ -1,19 +1,21 @@
 # Sridhar Ravi Kumar . Jarvis Consulting
 
-Data-focused professional with hands-on experience working with SQL, Python, and Power BI to process and understand data. Built projects involving system monitoring, customer analytics, and dashboards for reporting. Recently worked with Spark and Databricks to handle larger datasets and understand distributed processing. Comfortable working in Agile teams and explaining technical work in a simple and structured way. Interested in roles where I can work with data, build useful solutions, and continue growing.
+Data-focused professional with hands-on experience building end-to-end analytics and data engineering projects using SQL, Python, Power BI, Spark, and Databricks. Built solutions for system monitoring, customer analytics, dashboarding, and distributed data processing. Recently completed an Azure Databricks fraud analytics pipeline using Medallion Architecture (Bronze, Silver, Gold), integrating Azure SQL, ADLS Gen2, PySpark, Databricks SQL Dashboard, and Workflows for orchestration. Comfortable working in Agile teams and explaining technical work in a clear, structured way.
 
 ## Skills
 
 **Proficient:** Java (Core Java, Collections, Streams), Linux and Bash, SQL and Relational Databases (PostgreSQL, MySQL), Git and Version Control, Agile / Scrum workflows
 
-**Competent:** Power BI (Data Modeling, DAX, Dashboard Development), Python (Pandas, NumPy for Data Analysis), Apache Spark (PySpark basics, DataFrames, transformations), Docker (Containerization & Image Management), ETL Concepts and Data Validation, Databricks (Notebook usage and data processing), Maven and Java Build Lifecycle Management
+**Competent:** Power BI (Data Modeling, DAX, Dashboard Development), Python (Pandas, NumPy for Data Analysis), Apache Spark (PySpark, DataFrames, transformations, aggregations), Databricks (Notebooks, Delta Tables, Workflows, SQL Dashboard), Azure Databricks (Medallion Architecture, ETL Pipelines), Azure Data Lake Storage Gen2 (External Location, file-based ingestion), Azure SQL Database (JDBC-based ingestion), ETL / ELT Concepts and Data Validation, Docker (Containerization & Image Management), Maven and Java Build Lifecycle Management
 
-**Familiar:** GCP Dataproc (basic cluster setup and usage), Apache Zeppelin (data exploration using notebooks), Software Testing Fundamentals (STLC, Regression Testing Basics), Microsoft Excel (Reporting and Analysis), COBOL (Batch Processing), N8N Workflow Automation, LLM Tools and Prompt-based workflows
+**Familiar:** Azure Data Factory (basic ingestion flow understanding), GCP Dataproc (basic cluster setup and usage), Apache Zeppelin (data exploration using notebooks), Hive Metastore / Data Catalog concepts, Software Testing Fundamentals (STLC, Regression Testing Basics), Microsoft Excel (Reporting and Analysis), COBOL (Batch Processing), N8N Workflow Automation, LLM Tools and Prompt-based workflows
 
 ## Jarvis Projects
 
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar](https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar)
 
+
+**Azure Databricks Fraud Analytics Pipeline** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar/tree/master/databricks_fundamentals)]: Built an end-to-end fraud analytics pipeline using Azure Databricks and PySpark. Ingested transaction data from Azure SQL using JDBC and loaded supporting files from ADLS Gen2. Implemented Medallion Architecture with separate Bronze, Silver, and Gold notebooks, enriched transaction data using merchant category and fraud label datasets, and created multiple Gold tables to answer business questions on fraud trends, risky users, merchant risk, time-of-day patterns, and financial loss. Built and published a Databricks SQL dashboard on top of Gold tables and orchestrated the pipeline using Databricks Workflows.
 
 **Linux Cluster Monitor** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar/tree/master/linux_sql)]: Built a Bash-based monitoring tool to collect hardware details and system usage data from Linux machines. Stored the data in PostgreSQL and automated collection using Cron jobs. Used Docker to manage the database setup. Helped track system performance over time using simple SQL queries.
 
@@ -23,18 +25,18 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_SridharRav
 
 **Power BI Data Visualization Dashboards** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar/tree/master/powerbi_fundamentals)]: Created Power BI dashboards for different datasets like sales, surveys, and stock data. Used Power Query for data cleaning and DAX for calculations. Built simple and clear visuals with filters so users can explore the data and understand key metrics.
 
-**Spark Data Processing (WDI Dataset)** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar/tree/master/spark)]: Processed World Development Indicator data using PySpark in Zeppelin and Databricks. Worked with DataFrames, applied transformations, and ran queries on distributed data. Learned how Spark handles large datasets using partitions and multiple workers, and compared it with Pandas processing.
+**Spark Data Processing (WDI Dataset)** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar/tree/master/spark)]: Processed World Development Indicator data using PySpark in Zeppelin and Databricks. Worked with distributed DataFrames, applied transformations and aggregations, and queried processed datasets using Spark SQL and Hive-based metadata concepts. Used this project to strengthen understanding of partitions, distributed execution, and the difference between single-node and cluster-based processing.
 
 
 ## Highlighted Projects
 **AI Career Advisor** [[GitHub](https://github.com/sridhoo/)]: Built a machine learning-based project to suggest IT career paths based on user inputs like skills and interests. Designed a simple questionnaire flow and used models to generate recommendations. Focused on making the output easy to understand.
 
-**FitEats AI Meal Planner** [[GitHub](https://github.com/sridhoo/)]: Created a basic meal planning application that suggests food options based on user preferences. Implemented simple logic and experimented with prompt-based ideas to improve recommendations.
+**FitEats AI Meal Planner** [[GitHub](https://github.com/sridhoo/)]: Built a machine learning-based project to suggest IT career paths based on user inputs like skills and interests. Designed a simple questionnaire flow and used models to generate recommendations. Focused on making the output easy to understand.
 
 
 ## Professional Experiences
 
-**Data Engineer, Jarvis Consulting Group (2025 - Present)**: Worked on data and backend projects using SQL, Python, Java, and Power BI. Built small pipelines, monitoring tools, and dashboards as part of training and project work. Recently worked with Spark and Databricks to understand how larger datasets are processed. Followed structured development practices and worked in an Agile environment.
+**Data Engineer, Jarvis Consulting Group (2025 - Present)**: Built data and backend projects using SQL, Python, Java, Power BI, Spark, and Databricks. Developed monitoring tools, analytics workflows, dashboards, and ETL pipelines as part of project-based training. Recently completed an Azure Databricks fraud analytics pipeline using Azure SQL, ADLS Gen2, PySpark, Medallion Architecture, Databricks SQL Dashboard, and Workflows. Followed structured development practices and worked in an Agile environment.
 
 **Programmer Analyst, Cognizant Technology Solutions (Apr 2022 - Nov 2023)**: Worked on batch processing systems using COBOL. Handled data from upstream systems, performed calculations, and generated output files for reporting. Supported job runs, debugging, and month-end processes. Also created Excel reports for tracking and documentation.
 
