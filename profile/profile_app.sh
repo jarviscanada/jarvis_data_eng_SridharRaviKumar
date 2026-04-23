@@ -32,22 +32,23 @@ function validate_yaml() {
 
 function get_profile_name() {
   echo "---- Parsing metadata ----"
-  profile_name=$(docker run --rm -w /workdir -v "${PWD}":/workdir mikefarah/yq:3.3.4 yq r profile.yaml name | xargs | tr -d '\r' | sed -e 's/ /_/g')
+  profile_name=$(docker run --rm -v "${PWD}":/workdir mikefarah/yq:3.3.4 sh -c "cd /workdir && yq r profile.yaml name" | xargs | tr -d '\r' | sed -e 's/ /_/g')
+  exit_code=$?
   profile_prefix=jarvis_profile_${profile_name}
   echo ${profile_name}
-  check_status $?
+  check_status ${exit_code}
 }
 
 function yaml_to_json() {
   echo "---- Converting profile YAML to JSON ----"
-  docker run --rm -w /workdir -v "${PWD}":/workdir mikefarah/yq:3.3.4 yq r -j --prettyPrint profile.yaml > profile.json
+  docker run --rm -v "${PWD}":/workdir mikefarah/yq:3.3.4 sh -c "cd /workdir && yq r -j --prettyPrint profile.yaml" > profile.json
   check_status $?
 }
 
 function render_md() {
   echo "---- Rendering profile.md ----"
   docker pull jrvs/render_profile_md
-  docker run --rm -v "${PWD}":/workdir jrvs/render_profile_md  profile.yaml profile.md
+  docker run --rm -v "${PWD}":/workdir jrvs/render_profile_md profile.yaml profile.md
   check_status $?
 }
 
