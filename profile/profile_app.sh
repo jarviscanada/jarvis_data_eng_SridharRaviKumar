@@ -32,7 +32,7 @@ function validate_yaml() {
 
 function get_profile_name() {
   echo "---- Parsing metadata ----"
-  profile_name=$(docker run --rm -v "${PWD}":/workdir mikefarah/yq:3.3.4 r /workdir/profile.yaml name | xargs | tr -d '\r' | sed -e 's/ /_/g')
+  profile_name=$(docker run --rm --entrypoint yq -v "${PWD}":/workdir mikefarah/yq:3.3.4 r /workdir/profile.yaml name | xargs | tr -d '\r' | sed -e 's/ /_/g')
   exit_code=$?
   profile_prefix=jarvis_profile_${profile_name}
   echo ${profile_name}
@@ -41,7 +41,7 @@ function get_profile_name() {
 
 function yaml_to_json() {
   echo "---- Converting profile YAML to JSON ----"
-  docker run --rm -v "${PWD}":/workdir mikefarah/yq:3.3.4 r -j --prettyPrint /workdir/profile.yaml > profile.json
+  docker run --rm --entrypoint yq -v "${PWD}":/workdir mikefarah/yq:3.3.4 r -j --prettyPrint /workdir/profile.yaml > profile.json
   check_status $?
 }
 
