@@ -60,7 +60,7 @@ Using PySpark, I performed:
 
 ### Architecture Overview
 
-![Fraud Analytics Architecture](./docs/Architecture.png)
+!![Architecture](./docs/Architecture.png)
 This project follows the Medallion Architecture:
 
 #### Bronze Layer
