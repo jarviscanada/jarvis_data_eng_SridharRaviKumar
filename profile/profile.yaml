@@ -4,28 +4,25 @@ name: "Sridhar Ravi Kumar"
 # Your GitHub repo root URL
 github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar
 
-summary: Data-focused professional with hands-on experience building end-to-end analytics and data engineering projects using SQL, Python, Power BI, Spark, and Databricks. Built solutions for system monitoring, customer analytics, dashboarding, and distributed data processing. Recently completed an Azure Databricks fraud analytics pipeline using Medallion Architecture (Bronze, Silver, Gold), integrating Azure SQL, ADLS Gen2, PySpark, Databricks SQL Dashboard, and Workflows for orchestration. Comfortable working in Agile teams and explaining technical work in a clear, structured way.
+summary: Data-focused professional with hands-on experience building end-to-end data pipelines and analytics solutions using SQL, Python, Spark, and Databricks. Recently built production-style pipelines using Medallion Architecture (Bronze, Silver, Gold) with Delta Live Tables and automated workflows. Comfortable working with real-world data, building dashboards, and explaining technical solutions clearly.
 
 skills:
 
   proficient:
-    - Java (Core Java, Collections, Streams)
-    - Linux and Bash
     - SQL and Relational Databases (PostgreSQL, MySQL)
-    - Git and Version Control
-    - Agile / Scrum workflows
-
-  competent:
-    - Power BI (Data Modeling, DAX, Dashboard Development)
     - Python (Pandas, NumPy for Data Analysis)
     - Apache Spark (PySpark, DataFrames, transformations, aggregations)
     - Databricks (Notebooks, Delta Tables, Workflows, SQL Dashboard)
+    - Linux and Bash
+    - Git and Version Control
+
+  competent:
+    - Java (Core Java, Collections, Streams)
+    - Power BI (Data Modeling, DAX, Dashboard Development)
     - Azure Databricks (Medallion Architecture, ETL Pipelines)
-    - Azure Data Lake Storage Gen2 (External Location, file-based ingestion)
-    - Azure SQL Database (JDBC-based ingestion)
+    - Azure Data Lake Storage Gen2
+    - Azure SQL Database
     - ETL / ELT Concepts and Data Validation
-    - Docker (Containerization & Image Management)
-    - Maven and Java Build Lifecycle Management
 
   familiar:
     - Azure Data Factory (basic ingestion flow understanding)
@@ -39,6 +36,10 @@ skills:
     - LLM Tools and Prompt-based workflows
 
 jarvis_projects:
+  - name: "DLT Stock Market Data Pipeline (Databricks)"
+    git_url: "/databricks_fundamentals"
+    description: Built an end-to-end data pipeline using Databricks Delta Live Tables. Ingested stock data from Alpha Vantage API and stored raw JSON in Unity Catalog volumes. Implemented Bronze, Silver, and Gold layers to structure and transform data. Created analytical tables for price trends and growth metrics (7-day, 30-day, 90-day). Built an interactive dashboard with filters for stock symbol and date range, and automated the pipeline using Databricks Workflows.
+    
   - name: "Azure Databricks Fraud Analytics Pipeline"
     git_url: "/databricks_fundamentals"
     description: Built an end-to-end fraud analytics pipeline using Azure Databricks and PySpark. Ingested transaction data from Azure SQL using JDBC and loaded supporting files from ADLS Gen2. Implemented Medallion Architecture with separate Bronze, Silver, and Gold notebooks, enriched transaction data using merchant category and fraud label datasets, and created multiple Gold tables to answer business questions on fraud trends, risky users, merchant risk, time-of-day patterns, and financial loss. Built and published a Databricks SQL dashboard on top of Gold tables and orchestrated the pipeline using Databricks Workflows.
@@ -71,7 +72,7 @@ highlighted_projects:
 
   - name: "FitEats AI Meal Planner"
     git_url: "https://github.com/sridhoo/"
-    description: Built a machine learning-based project to suggest IT career paths based on user inputs like skills and interests. Designed a simple questionnaire flow and used models to generate recommendations. Focused on making the output easy to understand.
+    description: Built a simple AI-based meal planning system that suggests meals based on user preferences. Focused on usability and integrating AI-generated recommendations into a structured workflow.
 
 professional_experience:
 
