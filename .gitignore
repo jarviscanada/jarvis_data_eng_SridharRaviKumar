@@ -48,3 +48,18 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+
+# COBOL build outputs
+*.exe
+*.o
+*.dll
+*.so
+cobol/student-registration-system/src/PRGMENU
+cobol/student-registration-system/src/PRGV0001
+cobol/student-registration-system/src/PRGI0002
+cobol/student-registration-system/src/PRGU0003
+cobol/student-registration-system/src/PRGD0004
+cobol/student-registration-system/src/PRGQ0005
+cobol/student-registration-system/src/PRGQ0006
+cobol/student-registration-system/src/PRGQ0007
+cobol/student-registration-system/src/PRGR0008
