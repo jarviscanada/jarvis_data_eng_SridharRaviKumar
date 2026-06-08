@@ -4,46 +4,49 @@ name: "Sridhar Ravi Kumar"
 # Your GitHub repo root URL
 github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_SridharRaviKumar
 
-summary: Data-focused professional with hands-on experience building end-to-end data pipelines and analytics solutions using SQL, Python, Spark, and Databricks. Recently built production-style pipelines using Medallion Architecture (Bronze, Silver, Gold) with Delta Live Tables and automated workflows. Comfortable working with real-world data, building dashboards, and explaining technical solutions clearly.
+summary: Mainframe and data engineering professional with hands-on experience in COBOL batch processing, file handling, reporting workflows, and production-style data processing. Previously worked on insurance batch/reporting systems involving premium, loss, and outstanding loss data, supporting job runs, debugging, validations, error-handling files, and month-end reporting processes. Recently refreshed and strengthened mainframe development skills by building a COBOL Student Registration System using sequential files, indexed/VSAM-style files, copybooks, CRUD operations, file status handling, report generation, and a menu-driven program flow. Also experienced in SQL, Python, Spark, Databricks, Azure, Power BI, Linux, Git, and end-to-end data pipeline development.
 
 skills:
 
   proficient:
-    - SQL and Relational Databases (PostgreSQL, MySQL)
-    - Python (Pandas, NumPy for Data Analysis)
-    - Apache Spark (PySpark, DataFrames, transformations, aggregations)
-    - Databricks (Notebooks, Delta Tables, Workflows, SQL Dashboard)
-    - Linux and Bash
-    - Git and Version Control
+    - COBOL and Mainframe Batch Processing
+    - JCL and Production Job Flow Understanding
+    - Sequential and Indexed/VSAM-style File Handling
+    - Copybooks, Fixed-Length Records, and Report Generation
+    - Job Monitoring, Spool Review, Debugging, and File Status Handling
+    - SQL and Relational Databases
+    - Linux, Bash, Git, and Version Control
 
   competent:
-    - Java (Core Java, Collections, Streams)
-    - Power BI (Data Modeling, DAX, Dashboard Development)
-    - Azure Databricks (Medallion Architecture, ETL Pipelines)
-    - Azure Data Lake Storage Gen2
-    - Azure SQL Database
-    - ETL / ELT Concepts and Data Validation
+    - Mainframe Application Support and Ticket-based Development
+    - COBOL CRUD Operations, Control Break Reports, and Batch Reporting Logic
+    - Data Validation, Error Handling, and Production Support Practices
+    - Python, PySpark, Databricks, and ETL/ELT Pipeline Development
+    - Azure Databricks, Azure SQL, and ADLS Gen2
+    - Power BI Dashboards, Data Modeling, and Business Reporting
+    - Java Backend Fundamentals and File Processing
 
   familiar:
-    - Azure Data Factory (basic ingestion flow understanding)
-    - GCP Dataproc (basic cluster setup and usage)
-    - Apache Zeppelin (data exploration using notebooks)
-    - Hive Metastore / Data Catalog concepts
-    - Software Testing Fundamentals (STLC, Regression Testing Basics)
-    - Microsoft Excel (Reporting and Analysis)
-    - COBOL (Batch Processing)
-    - N8N Workflow Automation
-    - LLM Tools and Prompt-based workflows
+    - CICS and DB2 Concepts
+    - Endevor, GDG, Load Libraries, and Mainframe Promotion Flow
+    - Azure Data Factory and GCP Dataproc
+    - Hive Metastore, Data Catalogs, and Distributed Processing Concepts
+    - Software Testing Fundamentals
+    - Excel Reporting, N8N Automation, and LLM-based Workflows
 
 jarvis_projects:
+  - name: "COBOL Student Registration System"
+    git_url: "/cobol/student-registration-system"
+    description: Built a mainframe-style COBOL Student Registration System using GnuCOBOL to refresh and strengthen practical mainframe development concepts. Implemented a menu-driven application with separate COBOL programs to generate an indexed/VSAM-style file from an initial sequential file, insert students, update students, delete students, query all students, query by student ID, query by date of inclusion, and generate a course-break report file. Used fixed-format COBOL with line numbers, copybook-based record layouts, sequential and indexed file handling, file status codes, 88-level EOF flags, READ/WRITE/REWRITE/DELETE operations, MOVE + DISPLAY report formatting, and control-break reporting logic.
+
   - name: "DLT Stock Market Data Pipeline (Databricks)"
     git_url: "/databricks_fundamentals"
     description: Built an end-to-end data pipeline using Databricks Delta Live Tables. Ingested stock data from Alpha Vantage API and stored raw JSON in Unity Catalog volumes. Implemented Bronze, Silver, and Gold layers to structure and transform data. Created analytical tables for price trends and growth metrics (7-day, 30-day, 90-day). Built an interactive dashboard with filters for stock symbol and date range, and automated the pipeline using Databricks Workflows.
-    
+
   - name: "Azure Databricks Fraud Analytics Pipeline"
     git_url: "/databricks_fundamentals"
     description: Built an end-to-end fraud analytics pipeline using Azure Databricks and PySpark. Ingested transaction data from Azure SQL using JDBC and loaded supporting files from ADLS Gen2. Implemented Medallion Architecture with separate Bronze, Silver, and Gold notebooks, enriched transaction data using merchant category and fraud label datasets, and created multiple Gold tables to answer business questions on fraud trends, risky users, merchant risk, time-of-day patterns, and financial loss. Built and published a Databricks SQL dashboard on top of Gold tables and orchestrated the pipeline using Databricks Workflows.
-    
+
   - name: "Linux Cluster Monitor"
     git_url: "/linux_sql"
     description: Built a Bash-based monitoring tool to collect hardware details and system usage data from Linux machines. Stored the data in PostgreSQL and automated collection using Cron jobs. Used Docker to manage the database setup. Helped track system performance over time using simple SQL queries.
@@ -65,7 +68,6 @@ jarvis_projects:
     description: Processed World Development Indicator data using PySpark in Zeppelin and Databricks. Worked with distributed DataFrames, applied transformations and aggregations, and queried processed datasets using Spark SQL and Hive-based metadata concepts. Used this project to strengthen understanding of partitions, distributed execution, and the difference between single-node and cluster-based processing.
 
 highlighted_projects:
-
   - name: "AI Career Advisor"
     git_url: "https://github.com/sridhoo/"
     description: Built a machine learning-based project to suggest IT career paths based on user inputs like skills and interests. Designed a simple questionnaire flow and used models to generate recommendations. Focused on making the output easy to understand.
@@ -75,19 +77,17 @@ highlighted_projects:
     description: Built a simple AI-based meal planning system that suggests meals based on user preferences. Focused on usability and integrating AI-generated recommendations into a structured workflow.
 
 professional_experience:
-
-  - title: "Data Engineer"
+  - title: "Data Engineer / Mainframe Trainee"
     company: "Jarvis Consulting Group"
     duration: "2025 - Present"
-    description: Built data and backend projects using SQL, Python, Java, Power BI, Spark, and Databricks. Developed monitoring tools, analytics workflows, dashboards, and ETL pipelines as part of project-based training. Recently completed an Azure Databricks fraud analytics pipeline using Azure SQL, ADLS Gen2, PySpark, Medallion Architecture, Databricks SQL Dashboard, and Workflows. Followed structured development practices and worked in an Agile environment.
+    description: Built data engineering, backend, cloud, analytics, and mainframe-focused projects using SQL, Python, Java, Power BI, Spark, Databricks, Linux, Bash, Git, Docker, and COBOL. Developed monitoring tools, analytics workflows, dashboards, ETL pipelines, and a COBOL Student Registration System as part of project-based training. Strengthened mainframe concepts including fixed-format COBOL, copybooks, sequential and indexed file handling, VSAM-style processing, READ/WRITE/REWRITE/DELETE operations, file status handling, EOF flags, menu-driven programs, and report generation.
 
   - title: "Programmer Analyst"
     company: "Cognizant Technology Solutions"
     duration: "Apr 2022 - Nov 2023"
-    description: Worked on batch processing systems using COBOL. Handled data from upstream systems, performed calculations, and generated output files for reporting. Supported job runs, debugging, and month-end processes. Also created Excel reports for tracking and documentation.
+    description: Worked on mainframe batch processing and reporting systems for an insurance client using COBOL, JCL concepts, file handling, job monitoring, spool review, and production support practices. Processed insurance-related records involving premium, loss, and outstanding loss reporting. Supported upstream data processing, table/file-based lookups, validation logic, error-handling files, output/report files, daily and monthly batch runs, dry runs before production, month-end scorecard processes, and reporting outputs. Worked on task-based tickets across testing and production areas, reviewed job outputs and return codes, supported debugging, and helped ensure reporting files were produced correctly.
 
 education:
-
   - school_name: "Durham College"
     duration: "Jan 2024 - Aug 2025"
     degree: "Postgraduate Diplomas"
@@ -107,11 +107,10 @@ education:
       - "Graduated with First Class - CGPA: 8/10"
 
 others:
-
   - title: "Workplace Engagement & Outreach"
     bullets:
-      - "Delivered technical and career guidance sessions to students"
-      - "Participated in internal knowledge sharing and engagement activities"
+      - "Delivered technical training sessions to high school students and college students on IC engines and automotive systems"
+      - "Participated in Cognizant's internal knowledge sharing and engagement activities"
 
   - title: "Freelance and Support Experience"
     bullets:
@@ -119,4 +118,4 @@ others:
 
   - title: "Interests"
     bullets:
-      - "Travel, motorcycles, and understanding how mechanical and software systems work"
+      - "Travel, motorcycles, cars, and understanding how mechanical and software systems work"
